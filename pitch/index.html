@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Биржа намерений</title>
+<link rel="stylesheet" href="styles.css">
+<script src="data.js"></script>
+<script src="qr.js"></script>
+</head>
+<body>
+
+<div class="frame"><section class="slide s-sec" id="p1">
+  <div class="clock big">16:49:59<br><span class="lime">.001</span></div>
+  <div class="cap">Время заявки трейдера UZEX, <span class="m">6</span>&nbsp;ноября <span class="m">2026</span></div>
+  <div class="stack">
+    <div class="receipt rc1"><span class="r-k">АИ-92 · 06.11.2026</span><span class="r-price big" data-n="ai92_prices.0"></span></div>
+    <div class="receipt rc2"><span class="r-k">АИ-92 · 06.11.2026</span><span class="r-price big" data-n="ai92_prices.1"></span></div>
+    <div class="receipt rc3"><span class="r-k">АИ-92 · 06.11.2026</span><span class="r-price big" data-n="ai92_prices.2"></span></div>
+    <div class="receipt rc4"><span class="r-k">АИ-92 · 06.11.2026</span><span class="r-price big" data-n="ai92_prices.3"></span></div>
+    <div class="receipt rc5"><span class="r-k">АИ-92 · 06.11.2026</span><span class="r-price big" data-n="ai92_prices.4"></span></div>
+  </div>
+  <h1>Один товар, одно утро, один завод — пять цен</h1>
+  <div class="src">Бензин АИ-92 · реестр UZEX, сделки <span class="m">06.11.2026</span> · сум за тонну — биржа торгует топливом в тоннах</div>
+</section></div>
+
+<div class="frame"><section class="slide s-qr" id="p2">
+  <img class="qr" src="qr.png" alt="QR">
+  <div class="qr-cap">Напишите, что вам нужно купить</div>
+  <div class="qr-url m" id="qr-url"></div>
+  <div class="path">
+    <div class="label">Как покупают сегодня</div>
+    <ol>
+      <li><span class="n">01</span><span>Найти брокера</span></li>
+      <li><span class="n">02</span><span>Отдать брокеру доступ к&nbsp;своему кабинету</span></li>
+      <li><span class="n">03</span><span>Перевести деньги вперёд, не&nbsp;зная, хватит&nbsp;ли</span></li>
+      <li><span class="n">04</span><span>Брокер открывает шесть систем</span></li>
+      <li><span class="n">05</span><span>Вводит <span class="m">12</span> полей</span></li>
+      <li><span class="n">06</span><span>Выбирает из&nbsp;десятков одинаковых строк</span></li>
+      <li><span class="n">07</span><span>Успевает к <span class="m">16:49:59.001</span></span></li>
+      <li><span class="n">08</span><span>Отказ: «недопустимое время»</span></li>
+      <li><span class="n">09</span><span>Правила — после отказа, не&nbsp;до</span></li>
+    </ol>
+  </div>
+</section></div>
+
+<div class="frame"><section class="slide s-sol" id="p3">
+  <div class="logo"><i></i>intent</div>
+  <h1>Биржа намерений <span class="uz">· Niyat birjasi</span></h1>
+  <div class="claim">Не аукцион на&nbsp;скорость — окно с&nbsp;одной ценой</div>
+  <div class="chain">
+    <div class="blk"><div class="b-n m">01</div><div class="b-t">Фраза</div><div class="b-q">«<span class="m">200</span> тонн М400 в&nbsp;Наманган»</div><span class="tag dim">человек</span></div>
+    <span class="arr">→</span>
+    <div class="blk ai"><div class="b-n m">02</div><div class="b-t">Поручение с&nbsp;границами</div><div class="b-q">подписывает сам покупатель</div><span class="tag ai-t">нейросеть</span></div>
+    <span class="arr">→</span>
+    <div class="blk"><div class="b-n m">03</div><div class="b-t">Окно-корзина</div><div class="b-q">скорость не&nbsp;важна</div><span class="tag dim">код</span></div>
+    <span class="arr">→</span>
+    <div class="blk"><div class="b-n m">04</div><div class="b-t">Одна цена для&nbsp;всех</div><div class="b-q">открытое правило</div><span class="tag dim">код</span></div>
+    <span class="arr">→</span>
+    <div class="blk"><div class="b-n m">05</div><div class="b-t">Деньги по&nbsp;подписи получателя</div><div class="b-q">в&nbsp;накладной</div><span class="tag dim">код</span></div>
+  </div>
+  <div class="rule">Нейросеть переводит, код считает, человек подписывает.<br><span class="ink3">К&nbsp;цене нейросеть не&nbsp;прикасается — ст.&nbsp;<span class="m">29</span> закона о&nbsp;конкуренции</span></div>
+</section></div>
+
+<div class="frame"><section class="slide s-one" id="p4">
+  <div class="ours">
+    <div class="o-head"><span class="b-title">Бензин АИ-92 · <span class="m">5</span> сделок</span><span class="b-status">если бы одна корзина</span></div>
+    <div class="label o-lab">Одна цена для всех, сум за тонну — бензин на бирже продают тоннами</div>
+    <div class="one big" data-n="ai92.uniform_price_t"></div>
+    <div class="label o-was">Как было <span class="m">06.11.2026</span></div>
+    <div class="flat">
+      <div class="tk t1 same"><span class="tk-k">АИ-92 · 06.11.2026</span><span class="tk-v" data-n="ai92_prices.0"></span></div>
+      <div class="tk t2"><span class="tk-k">АИ-92 · 06.11.2026</span><span class="tk-v" data-n="ai92_prices.1"></span></div>
+      <div class="tk t3"><span class="tk-k">АИ-92 · 06.11.2026</span><span class="tk-v" data-n="ai92_prices.2"></span></div>
+      <div class="tk t4"><span class="tk-k">АИ-92 · 06.11.2026</span><span class="tk-v" data-n="ai92_prices.3"></span></div>
+      <div class="tk t5"><span class="tk-k">АИ-92 · 06.11.2026</span><span class="tk-v" data-n="ai92_prices.4"></span></div>
+    </div>
+  </div>
+  <div class="why card">
+    <h3>Почему такая цена</h3>
+    <div class="w-sub">Другой товар — цемент, наша корзина: объяснение каждому</div>
+    <div class="w"><div class="k">Хотели купить</div><div class="v"><span class="m" data-n="demand_t"></span>&nbsp;т</div></div>
+    <div class="w"><div class="k">Продавали</div><div class="v"><span class="m" data-n="supply_t"></span>&nbsp;т</div></div>
+    <div class="w"><div class="k">Цена, сум за&nbsp;тонну</div><div class="v"><span class="m" data-n="basket_price_base_t"></span></div></div>
+    <div class="w"><div class="k">Вы в&nbsp;сделке</div><div class="v">потолок выше цены</div></div>
+  </div>
+  <div class="src">Цены АИ-92 — реестр UZEX, <span class="m">06.11.2026</span>; корзина цемента — данные UZEX, покупатели вымышленные</div>
+</section></div>
+
+<div class="frame"><section class="slide s-mp" id="p5">
+  <div class="money card">
+    <div class="label">Деньги</div>
+    <div class="tape">
+      <div class="st"><span class="st-n m">01</span><span class="st-l">Заблокировано</span></div>
+      <div class="st"><span class="st-n m">02</span><span class="st-l">Подпись в&nbsp;накладной</span></div>
+      <div class="st last"><span class="st-n m">03</span><span class="st-l">Выплачено</span></div>
+    </div>
+    <div class="day"><span class="w" style="font-size:40px;line-height:1.15">Платят не&nbsp;по&nbsp;бумаге продавца,<br>а по&nbsp;подписи получателя</span></div>
+    <div class="back">Спор — деньги остаются в&nbsp;палате · Груза нет — вернулись</div>
+    <span class="tag warn demo">демо</span>
+  </div>
+  <div class="plant card">
+    <h2>Мелкие покупки собираются в&nbsp;лот завода</h2>
+    <div class="dem"><span class="big" data-n="demand_t"></span><span class="u">т</span><span class="w"><span class="m" data-n="n_buyers"></span> поручений</span></div>
+    <div class="lots" id="lots"></div>
+    <div class="today1">Сегодня сделки до&nbsp;<span class="m">30</span>&nbsp;т — около&nbsp;<span class="m">1</span>&nbsp;%</div>
+  </div>
+  <div class="src">Корзина цемента: данные UZEX, покупатели вымышленные</div>
+</section></div>
+
+<div class="frame"><section class="slide s-mvp" id="p6">
+  <h2>MVP работает</h2>
+  <div class="shots">
+    <div class="left">
+      <figure class="shot sh-market"><span class="tag sc">Рынок · одна цена</span><img src="mvp/market.png" alt="Рынок: корзина закрыта, одна цена 490 000"></figure>
+      <figure class="shot sh-plant"><span class="tag sc">Завод · спрос</span><img src="mvp/plant.png" alt="Завод: спрос по регионам"></figure>
+    </div>
+    <figure class="shot sh-phone"><span class="tag sc">Купить · фраза → поля</span><img src="mvp/phone-buy.png" alt="Телефон: фраза разобрана в поручение"></figure>
+    <div class="facts">
+      <div class="f"><span class="big">778</span><span>автотестов</span></div>
+      <div class="f"><span class="fx">данные UZEX</span></div>
+      <div class="f"><span class="fx">макеты подписаны «демо»</span></div>
+    </div>
+  </div>
+</section></div>
+
+<div class="frame"><section class="slide s-table" id="p7">
+  <h2>Что улучшили</h2>
+  <table>
+    <thead><tr><th><span>Было</span></th><th class="now"><span>Стало</span></th></tr></thead>
+    <tbody>
+      <tr><td>Аукцион на&nbsp;скорость, заявка на&nbsp;<span class="m">16:49:59.001</span></td><td>Окно с&nbsp;одной ценой — скорость не&nbsp;важна</td></tr>
+      <tr><td><span class="m">6</span> систем, трейдер вводит <span class="m">12</span> полей за&nbsp;клиента</td><td>Поручение с&nbsp;границами, подпись самого покупателя</td></tr>
+      <tr><td><span class="m">5</span> цен за&nbsp;одно утро</td><td><span class="m">1</span> цена для всех</td></tr>
+      <tr><td>Правила — после отказа</td><td>Проверка до&nbsp;торгов</td></tr>
+      <tr><td>Месяцы переписки, <span class="m">37</span> продлений</td><td>Выплата по&nbsp;подписи получателя; спор — деньги в&nbsp;палате</td></tr>
+      <tr><td>Мелкие покупатели — около&nbsp;<span class="m">1</span>&nbsp;% сделок</td><td>Мелкие поручения собираются в&nbsp;лот завода</td></tr>
+      <tr><td>Завод не&nbsp;видит спрос, продаётся <span class="m">19–27</span>&nbsp;%</td><td>Спрос по&nbsp;регионам виден до&nbsp;торгов</td></tr>
+    </tbody>
+  </table>
+</section></div>
+
+<div class="frame"><section class="slide s-next" id="p8">
+  <div class="col now-c">
+    <div class="head"><span class="dot"></span>Уже в&nbsp;MVP</div>
+    <ul>
+      <li>Окно вместо аукциона на&nbsp;скорость <span class="m" style="opacity:.6">— периодический аукцион единой цены</span></li>
+      <li>Поручение с&nbsp;границами, подпись самого покупателя</li>
+      <li>Мелкие поручения — в&nbsp;лот завода <span class="m" style="opacity:.6">— агрегация спроса</span></li>
+      <li>Выплата по&nbsp;подписи получателя в&nbsp;накладной</li>
+      <li>Надзор на&nbsp;фактах: общий брокер, общий склад <span class="m" style="opacity:.6">— surveillance</span></li>
+      <li>Две двери: ИП сегодня, физлица по&nbsp;ID-карте <span class="tag lav">модель 2035</span></li>
+    </ul>
+  </div>
+  <div class="col next-c">
+    <div class="head">Дальше</div>
+    <ul>
+      <li>Открытый протокол: любые приложения подают поручения, как&nbsp;Jett на&nbsp;фондовом рынке</li>
+      <li>Кредит внутри сделки вместо <span class="m">100</span>&nbsp;% предоплаты</li>
+      <li>Электронная складская расписка как&nbsp;товар</li>
+      <li>Субсидия фермеру как&nbsp;событие корзины</li>
+      <li>Биржевой индекс: одна цена закрытия — публичный ориентир для&nbsp;договоров и&nbsp;госзакупок</li>
+      <li>Рейтинг исполнения заводов и&nbsp;покупателей из&nbsp;истории сделок</li>
+    </ul>
+  </div>
+  <div class="ask">Нужно решение совета UZEX — прецедент РФБ «Тошкент», <span class="m">2019</span></div>
+</section></div>
+
+<div class="frame"><section class="slide s-ask" id="p9">
+  <div class="motto">Мы убрали секунду.</div>
+  <h1>Какую цену подписали бы&nbsp;вы?</h1>
+  <div class="card">
+    <div class="c-head"><span class="t">Новое поручение</span><span class="logo" style="font-size:28px"><i style="width:26px;height:26px"></i>intent</span></div>
+    <div class="input"><span class="cursor"></span></div>
+    <div class="f"><span class="k">Что</span><span class="v">—</span></div>
+    <div class="f"><span class="k">Сколько</span><span class="v">—</span></div>
+    <div class="f"><span class="k">Куда</span><span class="v">—</span></div>
+    <div class="f"><span class="k">Не дороже</span><span class="v">—</span></div>
+    <span class="pill ghost">Подписать ↗</span>
+  </div>
+</section></div>
+
+<script src="bind.js"></script>
+</body>
+</html>

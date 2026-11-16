@@ -1,0 +1,301 @@
+{
+ "ai92": {
+  "caption_ru": "если бы те же пять покупателей подали поручения в одну корзину",
+  "caption_uz": "agar oʻsha besh xaridor topshiriqlarni bitta savatga berganida",
+  "commodity": "АИ-92",
+  "contract": "128861",
+  "date": "2026-11-06",
+  "n_deals": 5,
+  "overpay": 69234,
+  "pay_as_bid_total": 227138319,
+  "seller": "Бухарский НПЗ",
+  "source_label_ru": "реестр UZEX 06.11.2026, объёмы демо",
+  "source_label_uz": "UZEX reyestri 06.11.2026, hajmlar demo",
+  "spread_t": 8095,
+  "total_qty_t": 17,
+  "uniform_price_t": 13357005,
+  "uniform_total": 227069085,
+  "volumes_note": "демо-объёмы: в реестре 2–5 т на сделку, точные объёмы не собраны"
+ },
+ "clearing": {
+  "allocations": [
+   [
+    "b1",
+    "Toshkent Conch Cement",
+    200,
+    512000
+   ],
+   [
+    "b2",
+    "Jizzakh Cement Plant",
+    20,
+    529000
+   ],
+   [
+    "b4",
+    "Toshkent Conch Cement",
+    60,
+    504000
+   ],
+   [
+    "b5",
+    "Jizzakh Cement Plant",
+    30,
+    490000
+   ],
+   [
+    "b6",
+    "Toshkent Conch Cement",
+    15,
+    512000
+   ]
+  ],
+  "executed_t": 325,
+  "lots": [
+   [
+    "Jizzakh Cement Plant",
+    50,
+    2
+   ],
+   [
+    "Toshkent Conch Cement",
+    275,
+    3
+   ]
+  ],
+  "price": 490000,
+  "tie_break": "min_surplus",
+  "unfilled": [
+   [
+    "b3",
+    5,
+    "price_below_clearing",
+    500000
+   ],
+   [
+    "b7",
+    30,
+    "price_below_clearing",
+    504000
+   ]
+  ]
+ },
+ "escrow": {
+  "b1": "RELEASED",
+  "b2": "DISPUTED"
+ },
+ "explain": {
+  "b1": {
+   "outcome": "filled",
+   "ru": [
+    "Исполнено полностью: 200 т по 512 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 1 000 000 ≥ цена с доставкой 512 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Ташкентская область, доставка 22 000 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Toʻliq bajarildi: 200 t, yetkazib berish bilan 512 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 1 000 000 ≥ yetkazib berish bilan narx 512 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Toshkent viloyati, yetkazib berish 22 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b2": {
+   "outcome": "filled",
+   "ru": [
+    "Исполнено полностью: 20 т по 529 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 650 000 ≥ цена с доставкой 529 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Джизакская область, доставка 39 000 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Toʻliq bajarildi: 20 t, yetkazib berish bilan 529 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 650 000 ≥ yetkazib berish bilan narx 529 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Jizzax viloyati, yetkazib berish 39 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b3": {
+   "outcome": "unfilled",
+   "ru": [
+    "Не исполнено: ваш потолок 480 000 < цена с доставкой 500 000; ближайшая корзина завтра 11:30.",
+    "Деньги не списаны, задаток остаётся на вашем счёте до следующей корзины.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Bajarilmadi: sizning chegarangiz 480 000 < yetkazib berish bilan narx 500 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b4": {
+   "outcome": "filled",
+   "ru": [
+    "Исполнено полностью: 60 т по 504 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 560 000 ≥ цена с доставкой 504 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Ташкентская область, доставка 14 000 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Toʻliq bajarildi: 60 t, yetkazib berish bilan 504 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 560 000 ≥ yetkazib berish bilan narx 504 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Toshkent viloyati, yetkazib berish 14 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b5": {
+   "outcome": "filled",
+   "ru": [
+    "Исполнено полностью: 30 т по 490 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 520 000 ≥ цена с доставкой 490 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Джизакская область, доставка 0 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Toʻliq bajarildi: 30 t, yetkazib berish bilan 490 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 520 000 ≥ yetkazib berish bilan narx 490 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Jizzax viloyati, yetkazib berish 0 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b6": {
+   "outcome": "filled",
+   "ru": [
+    "Исполнено полностью: 15 т по 512 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 620 000 ≥ цена с доставкой 512 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Ташкентская область, доставка 22 000 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Toʻliq bajarildi: 15 t, yetkazib berish bilan 512 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 620 000 ≥ yetkazib berish bilan narx 512 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Toshkent viloyati, yetkazib berish 22 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  },
+  "b7": {
+   "outcome": "unfilled",
+   "ru": [
+    "Не исполнено: ваш потолок 470 000 < цена с доставкой 504 000; ближайшая корзина завтра 11:30.",
+    "Деньги не списаны, задаток остаётся на вашем счёте до следующей корзины.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "uz": [
+    "Bajarilmadi: sizning chegarangiz 470 000 < yetkazib berish bilan narx 504 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ]
+  }
+ },
+ "mandates": {
+  "b1": {
+   "fees": {
+    "deposit_worst": 20000000,
+    "exchange_fee": 403200,
+    "gross_max": 200000000
+   },
+   "gate": "ok",
+   "hash": "a0abd7c98dce18f028286b9d5171015f5f9f2dd3b20677898be1e8e20babbf10"
+  },
+  "b2": {
+   "fees": {
+    "deposit_worst": 1300000,
+    "exchange_fee": 26208,
+    "gross_max": 13000000
+   },
+   "gate": "ok",
+   "hash": "82751e42b01b8473606c1f28b53afc97156b3361497b166e65b71bcead75b144"
+  },
+  "b3": {
+   "fees": {
+    "deposit_worst": 240000,
+    "exchange_fee": 4838,
+    "gross_max": 2400000
+   },
+   "gate": "ok",
+   "hash": "28c3fa21a29f63aa49b7c9ca304a8cf8c1dca19f502524d001d84409e30301dc"
+  },
+  "b4": {
+   "fees": {
+    "deposit_worst": 3360000,
+    "exchange_fee": 67738,
+    "gross_max": 33600000
+   },
+   "gate": "ok",
+   "hash": "6a5007721acdfb6f12d2b4250d76010b7da42eab231266dba0f0da08924d80e6"
+  },
+  "b5": {
+   "fees": {
+    "deposit_worst": 1560000,
+    "exchange_fee": 31450,
+    "gross_max": 15600000
+   },
+   "gate": "ok",
+   "hash": "0a5e0d8a9ebcea6e11ddbcb4695e1a55182234a4873fcb35d5c8c18017f0518e"
+  },
+  "b6": {
+   "fees": {
+    "deposit_worst": 930000,
+    "exchange_fee": 18749,
+    "gross_max": 9300000
+   },
+   "gate": "warning",
+   "hash": "23363a2adc714d687037cd1172aeae1d2ae7f6f924efc59edf3a0f7cfa21d078"
+  },
+  "b7": {
+   "fees": {
+    "deposit_worst": 1410000,
+    "exchange_fee": 28426,
+    "gross_max": 14100000
+   },
+   "gate": "ok",
+   "hash": "b55aa5782cf9bb4b46f9590b0009faa5f29e938e857c475432519130d968ba9b"
+  }
+ },
+ "plant_tcc": {
+  "last_run": [
+   {
+    "lot_group_id": "LOT-A-TCC",
+    "min_lot_t": 50,
+    "n_mandates": 3,
+    "offer_id": "A-TCC",
+    "qty_t": 275,
+    "regions": {
+     "Namangan": 215,
+     "Tashkent_city": 60
+    },
+    "seller": "Toshkent Conch Cement"
+   }
+  ],
+  "left_t": 25,
+  "price_t": 490000
+ }
+}

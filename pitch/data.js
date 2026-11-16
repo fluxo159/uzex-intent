@@ -1,0 +1,45 @@
+window.PITCH = {
+ "basket_price_base_t": 490000,
+ "tie_break": "min_surplus",
+ "executed_t": 325,
+ "demand_t": 360,
+ "supply_t": 1000,
+ "n_buyers": 7,
+ "n_plants": 5,
+ "n_filled": 5,
+ "delivered_prices_t": [
+  490000,
+  504000,
+  512000,
+  529000
+ ],
+ "lots": [
+  {
+   "seller": "Jizzakh Cement Plant",
+   "qty_t": 50,
+   "n_mandates": 2
+  },
+  {
+   "seller": "Toshkent Conch Cement",
+   "qty_t": 275,
+   "n_mandates": 3
+  }
+ ],
+ "ai92": {
+  "uniform_price_t": 13357005,
+  "overpay": 69234,
+  "spread_t": 8095,
+  "total_qty_t": 17,
+  "pay_as_bid_total": 227138319,
+  "uniform_total": 227069085,
+  "volumes_note": "демо-объёмы: в реестре 2–5 т на сделку, точные объёмы не собраны"
+ },
+ "ai92_prices": [
+  13357005,
+  13360000,
+  13360999,
+  13363999,
+  13365100
+ ],
+ "source": "данные UZEX, сделки до 06.11.2026; покупатели вымышленные; объёмы — демо"
+};

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #080909;
+  --s1: #121414;
+  --s2: #191C18;
+  --s3: #22281E;
+  --ink: #F4F5F0;
+  --ink-2: #DCE0D5;
+  --ink-3: #B4B9AE;
+  --mute: #6F756B;
+  --lime: #C7FA58;
+  --lime-ink: #11150B;
+  --lav: #C8B7FF;
+  --lav-bg: #241B33;
+  --warn: #E7C94A;
+  --warn-bg: #2A2410;
+  --bad: #FF6B6B;
+  --line: #1F2320;
+  --chart-hist: #6F756B;
+  --chart-ours: var(--lime);
+  color-scheme: dark;
+}
+
+html, body { background: var(--bg); color: var(--ink); }
+body {
+  margin: 0;
+  font-family: Geist, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+* { box-sizing: border-box; }
+button { font: inherit; color: inherit; }
+* { scrollbar-width: thin; scrollbar-color: var(--s3) transparent; }
+*::-webkit-scrollbar { width: 6px; height: 6px; }
+*::-webkit-scrollbar-thumb { background: var(--s3); border-radius: 999px; }
+*::-webkit-scrollbar-track { background: transparent; }
+::selection { background: var(--lime); color: var(--lime-ink); }
+
+@layer components {
+  .mono { font-family: 'Geist', system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+  .num-xl { font-family: 'Geist', system-ui, sans-serif; font-variant-numeric: tabular-nums; font-weight: 700; letter-spacing: -0.03em; line-height: 1.05; }
+  .h1 { font-size: 30px; line-height: 33px; font-weight: 600; letter-spacing: -0.02em; }
+  .h2 { font-size: 24px; line-height: 28px; font-weight: 600; letter-spacing: -0.02em; }
+  .h-page { font-size: 28px; line-height: 34px; font-weight: 600; letter-spacing: -0.02em; }
+  .caption { font-size: 12px; line-height: 16px; color: var(--ink-3); }
+  .card { background: var(--s2); border-radius: 24px; padding: 16px; }
+  .kv { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; line-height: 2; font-size: 13px; }
+  .kv > :first-child { color: var(--ink-3); }
+  .kv > :last-child { text-align: right; }
+  .link { color: var(--ink-3); font-size: 13px; text-decoration: none; background: none; border: 0; padding: 0; cursor: pointer; }
+  .link:hover { color: var(--ink); }
+  .tap { position: relative; }
+  .tap::after { content: ''; position: absolute; left: 0; right: 0; top: min(0px, calc((100% - 44px) / 2)); bottom: min(0px, calc((100% - 44px) / 2)); }
+  .focus-ring:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+}
+
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+.anim-rise { animation: rise .4s ease-out both; }
+@keyframes blink { 50% { opacity: 0; } }
+.caret { display: inline-block; width: 2px; height: 20px; background: var(--lime); vertical-align: -3px; margin-left: 2px; animation: blink 1s steps(1) infinite; }
+@keyframes wave { 0%,100% { transform: scaleY(.3); } 50% { transform: scaleY(1); } }
+.wave i { display: inline-block; width: 3px; height: 18px; margin: 0 1px; background: var(--lime); border-radius: 2px; animation: wave .9s ease-in-out infinite; }
+.wave i:nth-child(2) { animation-delay: .1s } .wave i:nth-child(3) { animation-delay: .2s } .wave i:nth-child(4) { animation-delay: .3s } .wave i:nth-child(5) { animation-delay: .4s }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(199,250,88,.5); } 100% { box-shadow: 0 0 0 24px rgba(199,250,88,0); } }
+.pulse { animation: pulse-ring 1.2s ease-out infinite; }
+@media (prefers-reduced-motion: reduce) { .anim-rise, .caret, .wave i, .pulse { animation: none !important; } }

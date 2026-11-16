@@ -1,0 +1,732 @@
+{
+ "version": 1,
+ "today": "2026-11-08",
+ "note_fields": "fields: commodity, grade, qty_t, region (код app/regions.py), deadline ISO, max_price_t сум/т, payment_terms",
+ "phrases": [
+  {
+   "id": "ru01",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "200 тонн цемента М400 в Наманган до 15 ноября, не дороже 1 000 000 за тонну",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200,
+     "region": "Namangan",
+     "deadline": "2026-11-15",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru02",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Нужно сто пятьдесят тонн цемента марки 500 в Самарканд, до 20 ноября, максимум 950 тысяч",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 150,
+     "region": "Samarkand",
+     "deadline": "2026-11-20",
+     "max_price_t": 950000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru03",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Двести тонн цемента М400 в Карши срочно, не дороже девятисот тысяч сум",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200,
+     "region": "Qashqadaryo",
+     "deadline": "2026-11-10",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru04",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Цемент 32,5 триста тонн, Андижан, до 25-го, не дороже 880 000 сум за тонну",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 300,
+     "region": "Andijan",
+     "deadline": "2026-11-25",
+     "max_price_t": 880000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru05",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Из Ташкента в Бухару 120 тонн цемента М500 до конца месяца, потолок 1 100 000",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 120,
+     "region": "Bukhara",
+     "deadline": "2026-11-30",
+     "max_price_t": 1100000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru06",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Нужен цемент М400, 80 тонн в Фергану на следующей неделе, по 45 тысяч за мешок",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 80,
+     "region": "Fergana",
+     "deadline": "2026-11-09",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "ru07",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "500 мешков цемента М400 в Джизак до 18 ноября, не дороже 47 тысяч за мешок",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 25,
+     "region": "Jizzakh",
+     "deadline": "2026-11-18",
+     "max_price_t": 940000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "qty_t",
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "qty_from_bags",
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "ru08",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Нужен цемент в Карши",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": null,
+     "region": "Qashqadaryo",
+     "deadline": "2026-11-15",
+     "max_price_t": null,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [
+     "qty_t",
+     "max_price_t"
+    ],
+    "computed": [],
+    "defaults": [
+     "grade",
+     "deadline",
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru09",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Сорок тонн цемента 42,5 в Навои, предоплата, не дороже полутора миллионов",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 40,
+     "region": "Navoiy",
+     "deadline": "2026-11-15",
+     "max_price_t": 1500000,
+     "payment_terms": "prepay"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "deadline"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "ru10",
+   "lang": "ru",
+   "script": "cyr",
+   "text": "Ташкентская область, 60 тонн цемента М400, до 5-го, не больше 1,2 млн за тонну",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 60,
+     "region": "Tashkent_region",
+     "deadline": "2026-12-05",
+     "max_price_t": 1200000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz01",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Наманганга 15 ноябргача 200 тонна М400 цемент, тоннаси 1 000 000 дан ошмасин",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200,
+     "region": "Namangan",
+     "deadline": "2026-11-15",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz02",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Самарқандга икки юз тонна цемент керак, М500, 20 ноябргача, энг кўпи билан 950 минг сўм",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 200,
+     "region": "Samarkand",
+     "deadline": "2026-11-20",
+     "max_price_t": 950000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz03",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Қаршига юз эллик тонна М400 цемент шошилинч, 900 минг сўмгача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 150,
+     "region": "Qashqadaryo",
+     "deadline": "2026-11-10",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz04",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Андижонга 300 тонна 32,5 цемент, 25-гача, тоннаси 880 000 сўмдан ошмасин",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 300,
+     "region": "Andijan",
+     "deadline": "2026-11-25",
+     "max_price_t": 880000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz05",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Бухорога 120 тонна М500 цемент, ой охиригача, 1 100 000 сўмгача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 120,
+     "region": "Bukhara",
+     "deadline": "2026-11-30",
+     "max_price_t": 1100000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz06",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Фарғонага келаси ҳафта 80 тонна М400 цемент, қопи 45 минг сўмдан",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 80,
+     "region": "Fergana",
+     "deadline": "2026-11-09",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "uz07",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Жиззахга 500 қоп М400 цемент, 18 ноябргача, қопи 47 минг сўмгача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 25,
+     "region": "Jizzakh",
+     "deadline": "2026-11-18",
+     "max_price_t": 940000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "qty_t",
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "qty_from_bags",
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "uz08",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Тошкент шаҳрига 100 тонна цемент М400, эртага, 1 миллион сўмгача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 100,
+     "region": "Tashkent_city",
+     "deadline": "2026-11-09",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz09",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Навоийга қирқ тонна 42,5 цемент, олдиндан тўлов, бир ярим миллион сўмгача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 40,
+     "region": "Navoiy",
+     "deadline": "2026-11-15",
+     "max_price_t": 1500000,
+     "payment_terms": "prepay"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "deadline"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uz10",
+   "lang": "uz",
+   "script": "cyr",
+   "text": "Сурхондарёга 70 тонна цемент М400 керак, 22 ноябргача, тоннаси 990 минг сўмдан ошмасин",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 70,
+     "region": "Surkhandaryo",
+     "deadline": "2026-11-22",
+     "max_price_t": 990000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl01",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Namanganga 15-noyabrgacha 200 tonna M400 sement, tonnasi 1 000 000 dan oshmasin",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200,
+     "region": "Namangan",
+     "deadline": "2026-11-15",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl02",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Samarqandga ikki yuz tonna sement kerak, M500, 20-noyabrgacha, eng ko'pi bilan 950 ming so'm",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 200,
+     "region": "Samarkand",
+     "deadline": "2026-11-20",
+     "max_price_t": 950000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl03",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Qarshiga yuz ellik tonna M400 sement, shoshilinch, 900 ming so‘mgacha",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 150,
+     "region": "Qashqadaryo",
+     "deadline": "2026-11-10",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl04",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Andijonga yigirma besh tonna sement 32,5, 25-gacha, narxi 880 000 soʻmgacha",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 25,
+     "region": "Andijan",
+     "deadline": "2026-11-25",
+     "max_price_t": 880000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl05",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Buxoroga 120 tonna M500 sement, oy oxirigacha, 1 100 000 so'mgacha",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 120,
+     "region": "Bukhara",
+     "deadline": "2026-11-30",
+     "max_price_t": 1100000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "uzl06",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Farg'onaga kelasi hafta 80 tonna M400 sement, qopi 45 ming so'mdan",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 80,
+     "region": "Fergana",
+     "deadline": "2026-11-09",
+     "max_price_t": 900000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "uzl07",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Jizzaxga 500 qop M400 sement, 18-noyabrgacha, qopi 47 ming so'mgacha",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 25,
+     "region": "Jizzakh",
+     "deadline": "2026-11-18",
+     "max_price_t": 940000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [
+     "qty_t",
+     "max_price_t"
+    ],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": [
+     "qty_from_bags",
+     "price_per_bag"
+    ]
+   }
+  },
+  {
+   "id": "uzl08",
+   "lang": "uz",
+   "script": "lat",
+   "text": "Toshkentga 100 tonna sement M400, ertaga, 1 million so'mgacha",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 100,
+     "region": "Tashkent_city",
+     "deadline": "2026-11-09",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "mix01",
+   "lang": "uz",
+   "script": "mixed",
+   "text": "200 tonna цемент Наманганга, М400, 15 ноябргача, 1 000 000 гача",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200,
+     "region": "Namangan",
+     "deadline": "2026-11-15",
+     "max_price_t": 1000000,
+     "payment_terms": "after_delivery"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "payment_terms"
+    ],
+    "hints": []
+   }
+  },
+  {
+   "id": "mix02",
+   "lang": "uz",
+   "script": "mixed",
+   "text": "Navoiyga 40 tonna цемент 42,5, oldindan to'lov, не дороже 1,5 млн",
+   "expected": {
+    "fields": {
+     "commodity": "cement",
+     "grade": "42.5",
+     "qty_t": 40,
+     "region": "Navoiy",
+     "deadline": "2026-11-15",
+     "max_price_t": 1500000,
+     "payment_terms": "prepay"
+    },
+    "missing_fields": [],
+    "computed": [],
+    "defaults": [
+     "deadline"
+    ],
+    "hints": []
+   }
+  }
+ ]
+}

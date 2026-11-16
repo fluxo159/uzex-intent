@@ -1,0 +1,554 @@
+{
+ "demo": true,
+ "label": "ДЕМО-тариф",
+ "note": "расстояние между центрами областей ×1,25 × 140 сум/т·км, округлено до 1000; в проде — тарифы перевозчиков",
+ "rate_sum_per_tkm": 140,
+ "rows": [
+  {
+   "from": "Andijan",
+   "to": "Bukhara",
+   "km": 851,
+   "t": 119000
+  },
+  {
+   "from": "Andijan",
+   "to": "Fergana",
+   "km": 79,
+   "t": 11000
+  },
+  {
+   "from": "Andijan",
+   "to": "Jizzakh",
+   "km": 485,
+   "t": 68000
+  },
+  {
+   "from": "Andijan",
+   "to": "Karakalpakstan",
+   "km": 1343,
+   "t": 188000
+  },
+  {
+   "from": "Andijan",
+   "to": "Khorezm",
+   "km": 1229,
+   "t": 172000
+  },
+  {
+   "from": "Andijan",
+   "to": "Namangan",
+   "km": 77,
+   "t": 11000
+  },
+  {
+   "from": "Andijan",
+   "to": "Navoiy",
+   "km": 742,
+   "t": 104000
+  },
+  {
+   "from": "Andijan",
+   "to": "Qashqadaryo",
+   "km": 748,
+   "t": 105000
+  },
+  {
+   "from": "Andijan",
+   "to": "Samarkand",
+   "km": 592,
+   "t": 83000
+  },
+  {
+   "from": "Andijan",
+   "to": "Sirdaryo",
+   "km": 378,
+   "t": 53000
+  },
+  {
+   "from": "Andijan",
+   "to": "Surkhandaryo",
+   "km": 737,
+   "t": 103000
+  },
+  {
+   "from": "Andijan",
+   "to": "Tashkent_city",
+   "km": 329,
+   "t": 46000
+  },
+  {
+   "from": "Andijan",
+   "to": "Tashkent_region",
+   "km": 233,
+   "t": 33000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Fergana",
+   "km": 788,
+   "t": 110000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Jizzakh",
+   "km": 368,
+   "t": 51000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Karakalpakstan",
+   "km": 628,
+   "t": 88000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Khorezm",
+   "km": 470,
+   "t": 66000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Namangan",
+   "km": 786,
+   "t": 110000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Navoiy",
+   "km": 112,
+   "t": 16000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Qashqadaryo",
+   "km": 194,
+   "t": 27000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Samarkand",
+   "km": 272,
+   "t": 38000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Sirdaryo",
+   "km": 474,
+   "t": 66000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Surkhandaryo",
+   "km": 472,
+   "t": 66000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Tashkent_city",
+   "km": 556,
+   "t": 78000
+  },
+  {
+   "from": "Bukhara",
+   "to": "Tashkent_region",
+   "km": 629,
+   "t": 88000
+  },
+  {
+   "from": "Fergana",
+   "to": "Jizzakh",
+   "km": 421,
+   "t": 59000
+  },
+  {
+   "from": "Fergana",
+   "to": "Karakalpakstan",
+   "km": 1301,
+   "t": 182000
+  },
+  {
+   "from": "Fergana",
+   "to": "Khorezm",
+   "km": 1181,
+   "t": 165000
+  },
+  {
+   "from": "Fergana",
+   "to": "Namangan",
+   "km": 86,
+   "t": 12000
+  },
+  {
+   "from": "Fergana",
+   "to": "Navoiy",
+   "km": 681,
+   "t": 95000
+  },
+  {
+   "from": "Fergana",
+   "to": "Qashqadaryo",
+   "km": 676,
+   "t": 95000
+  },
+  {
+   "from": "Fergana",
+   "to": "Samarkand",
+   "km": 524,
+   "t": 73000
+  },
+  {
+   "from": "Fergana",
+   "to": "Sirdaryo",
+   "km": 319,
+   "t": 45000
+  },
+  {
+   "from": "Fergana",
+   "to": "Surkhandaryo",
+   "km": 658,
+   "t": 92000
+  },
+  {
+   "from": "Fergana",
+   "to": "Tashkent_city",
+   "km": 293,
+   "t": 41000
+  },
+  {
+   "from": "Fergana",
+   "to": "Tashkent_region",
+   "km": 194,
+   "t": 27000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Karakalpakstan",
+   "km": 919,
+   "t": 129000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Khorezm",
+   "km": 784,
+   "t": 110000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Namangan",
+   "km": 422,
+   "t": 59000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Navoiy",
+   "km": 262,
+   "t": 37000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Qashqadaryo",
+   "km": 281,
+   "t": 39000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Samarkand",
+   "km": 114,
+   "t": 16000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Sirdaryo",
+   "km": 112,
+   "t": 16000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Surkhandaryo",
+   "km": 408,
+   "t": 57000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Tashkent_city",
+   "km": 224,
+   "t": 31000
+  },
+  {
+   "from": "Jizzakh",
+   "to": "Tashkent_region",
+   "km": 273,
+   "t": 38000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Khorezm",
+   "km": 165,
+   "t": 23000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Namangan",
+   "km": 1267,
+   "t": 177000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Navoiy",
+   "km": 687,
+   "t": 96000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Qashqadaryo",
+   "km": 822,
+   "t": 115000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Samarkand",
+   "km": 864,
+   "t": 121000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Sirdaryo",
+   "km": 994,
+   "t": 139000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Surkhandaryo",
+   "km": 1096,
+   "t": 153000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Tashkent_city",
+   "km": 1014,
+   "t": 142000
+  },
+  {
+   "from": "Karakalpakstan",
+   "to": "Tashkent_region",
+   "km": 1111,
+   "t": 156000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Namangan",
+   "km": 1155,
+   "t": 162000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Navoiy",
+   "km": 539,
+   "t": 75000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Qashqadaryo",
+   "km": 663,
+   "t": 93000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Samarkand",
+   "km": 718,
+   "t": 101000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Sirdaryo",
+   "km": 867,
+   "t": 121000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Surkhandaryo",
+   "km": 934,
+   "t": 131000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Tashkent_city",
+   "km": 902,
+   "t": 126000
+  },
+  {
+   "from": "Khorezm",
+   "to": "Tashkent_region",
+   "km": 996,
+   "t": 139000
+  },
+  {
+   "from": "Namangan",
+   "to": "Navoiy",
+   "km": 676,
+   "t": 95000
+  },
+  {
+   "from": "Namangan",
+   "to": "Qashqadaryo",
+   "km": 694,
+   "t": 97000
+  },
+  {
+   "from": "Namangan",
+   "to": "Samarkand",
+   "km": 533,
+   "t": 75000
+  },
+  {
+   "from": "Namangan",
+   "to": "Sirdaryo",
+   "km": 312,
+   "t": 44000
+  },
+  {
+   "from": "Namangan",
+   "to": "Surkhandaryo",
+   "km": 707,
+   "t": 99000
+  },
+  {
+   "from": "Namangan",
+   "to": "Tashkent_city",
+   "km": 254,
+   "t": 36000
+  },
+  {
+   "from": "Namangan",
+   "to": "Tashkent_region",
+   "km": 160,
+   "t": 22000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Qashqadaryo",
+   "km": 178,
+   "t": 25000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Samarkand",
+   "km": 180,
+   "t": 25000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Sirdaryo",
+   "km": 364,
+   "t": 51000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Surkhandaryo",
+   "km": 450,
+   "t": 63000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Tashkent_city",
+   "km": 444,
+   "t": 62000
+  },
+  {
+   "from": "Navoiy",
+   "to": "Tashkent_region",
+   "km": 518,
+   "t": 73000
+  },
+  {
+   "from": "Qashqadaryo",
+   "to": "Samarkand",
+   "km": 167,
+   "t": 23000
+  },
+  {
+   "from": "Qashqadaryo",
+   "to": "Sirdaryo",
+   "km": 392,
+   "t": 55000
+  },
+  {
+   "from": "Qashqadaryo",
+   "to": "Surkhandaryo",
+   "km": 280,
+   "t": 39000
+  },
+  {
+   "from": "Qashqadaryo",
+   "to": "Tashkent_city",
+   "km": 504,
+   "t": 71000
+  },
+  {
+   "from": "Qashqadaryo",
+   "to": "Tashkent_region",
+   "km": 551,
+   "t": 77000
+  },
+  {
+   "from": "Samarkand",
+   "to": "Sirdaryo",
+   "km": 226,
+   "t": 32000
+  },
+  {
+   "from": "Samarkand",
+   "to": "Surkhandaryo",
+   "km": 340,
+   "t": 48000
+  },
+  {
+   "from": "Samarkand",
+   "to": "Tashkent_city",
+   "km": 337,
+   "t": 47000
+  },
+  {
+   "from": "Samarkand",
+   "to": "Tashkent_region",
+   "km": 386,
+   "t": 54000
+  },
+  {
+   "from": "Sirdaryo",
+   "to": "Surkhandaryo",
+   "km": 483,
+   "t": 68000
+  },
+  {
+   "from": "Sirdaryo",
+   "to": "Tashkent_city",
+   "km": 125,
+   "t": 18000
+  },
+  {
+   "from": "Sirdaryo",
+   "to": "Tashkent_region",
+   "km": 160,
+   "t": 22000
+  },
+  {
+   "from": "Surkhandaryo",
+   "to": "Tashkent_city",
+   "km": 608,
+   "t": 85000
+  },
+  {
+   "from": "Surkhandaryo",
+   "to": "Tashkent_region",
+   "km": 610,
+   "t": 85000
+  },
+  {
+   "from": "Tashkent_city",
+   "to": "Tashkent_region",
+   "km": 99,
+   "t": 14000
+  }
+ ]
+}

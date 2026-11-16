@@ -1,0 +1,3581 @@
+{
+ "_mock": "снято с бэкенда (TestClient) на демо-сценарии сид 2035; используется только пока бэкенд не отвечает",
+ "parse": {
+  "200 тонн цемента М400 в Наманган до 15 ноября, не дороже 1 000 000 за тонну": {
+   "transcript_norm": "200 тонн цемента м400 в наманган до 15 ноября не дороже 1000000 за тонну",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 200,
+    "region": "Namangan",
+    "deadline": "2026-11-15",
+    "max_price_t": 1000000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "ru",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "20 тонн М400 в Карши до 20 ноября, максимум 650 000 за тонну": {
+   "transcript_norm": "20 тонн м400 в карши до 20 ноября максимум 650000 за тонну",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 20,
+    "region": "Qashqadaryo",
+    "deadline": "2026-11-20",
+    "max_price_t": 650000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "ru",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "Andijonga 5 tonna M400 sement, 15 noyabrgacha, tonnasi 480 000 gacha": {
+   "transcript_norm": "андижонга 5 тонна м400 семент 15 ноябргача тоннаси 480000 гача",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 5,
+    "region": "Andijan",
+    "deadline": "2026-11-15",
+    "max_price_t": 480000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "uz",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "60 тонн цемента 32,5 в Ташкент до 18 ноября, не дороже 560 000": {
+   "transcript_norm": "60 тонн цемента 32.5 в ташкент до 18 ноября не дороже 560000",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 60,
+    "region": "Tashkent_city",
+    "deadline": "2026-11-18",
+    "max_price_t": 560000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "ru",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "Jizzaxga 30 tonna M400 sement, 20 noyabrgacha, 520 000 gacha": {
+   "transcript_norm": "жиззахга 30 тонна м400 семент 20 ноябргача 520000 гача",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 30,
+    "region": "Jizzakh",
+    "deadline": "2026-11-20",
+    "max_price_t": 520000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "uz",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "15 тонн цемента М400 в Наманган до 16 ноября, не дороже 620 000": {
+   "transcript_norm": "15 тонн цемента м400 в наманган до 16 ноября не дороже 620000",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 15,
+    "region": "Namangan",
+    "deadline": "2026-11-16",
+    "max_price_t": 620000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "ru",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  },
+  "30 тонн М400 в Ташкент до 14 ноября, максимум 470 000 за тонну": {
+   "transcript_norm": "30 тонн м400 в ташкент до 14 ноября максимум 470000 за тонну",
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 30,
+    "region": "Tashkent_city",
+    "deadline": "2026-11-14",
+    "max_price_t": 470000,
+    "payment_terms": "after_delivery"
+   },
+   "missing_fields": [],
+   "source": "offline",
+   "confidence_note": "numbers_verified",
+   "lang": "ru",
+   "computed": [],
+   "defaults": [
+    "payment_terms"
+   ],
+   "hints": []
+  }
+ },
+ "parse_missing": {
+  "transcript_norm": "нужен цемент в карши",
+  "fields": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": null,
+   "region": "Qashqadaryo",
+   "deadline": "2026-11-15",
+   "max_price_t": null,
+   "payment_terms": "after_delivery"
+  },
+  "missing_fields": [
+   "qty_t",
+   "max_price_t"
+  ],
+  "source": "offline",
+  "confidence_note": "numbers_verified_partial",
+  "lang": "ru",
+  "computed": [],
+  "defaults": [
+   "grade",
+   "deadline",
+   "payment_terms"
+  ],
+  "hints": []
+ },
+ "preview": {
+  "b1": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 200,
+    "region": "Namangan",
+    "deadline": "2026-11-15",
+    "max_price_t": 1000000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "ip",
+    "display_name": "ИП (демо)",
+    "region": "Namangan",
+    "inn": "900000001"
+   },
+   "fees": {
+    "gross_max": 200000000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 403200,
+    "deposit_rate": 0.1,
+    "deposit_worst": 20000000,
+    "deposit_final": false,
+    "delivery_min_t": 11000,
+    "delivery_max_t": 97000,
+    "total_worst": 200403200,
+    "needed_now": 20403200
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Вымышленный Алишер (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 30 000 000 сум ≥ задаток 20 000 000 + сбор 403 200",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 30000000,
+      "deposit_worst": 20000000,
+      "exchange_fee": 403200,
+      "required": 20403200,
+      "gross_max": 200000000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******001",
+    "region": "Namangan"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-15T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "39FD-6B",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "ip",
+     "display_name": "ИП (демо)",
+     "region": "Namangan",
+     "inn": "900000001"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 200
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 1000000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-15"
+    },
+    "allowed_regions": [
+     "Namangan"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-15T23:59:00",
+    "natural_language_description": "200 тонн цемента м400 в наманган до 15 ноября не дороже 1000000 за тонну",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "ru"
+   },
+   "hash": "39fd6b1cc611f08b8d335b884462125967b3582b062f7cff771fa08c239859a8"
+  },
+  "b2": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 20,
+    "region": "Qashqadaryo",
+    "deadline": "2026-11-20",
+    "max_price_t": 650000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "company",
+    "display_name": "ИП (демо)",
+    "region": "Qashqadaryo",
+    "inn": "900000004"
+   },
+   "fees": {
+    "gross_max": 13000000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 26208,
+    "deposit_rate": 0.1,
+    "deposit_worst": 1300000,
+    "deposit_final": false,
+    "delivery_min_t": 0,
+    "delivery_max_t": 105000,
+    "total_worst": 13026208,
+    "needed_now": 1326208
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Условная Дилноза (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 5 000 000 сум ≥ задаток 1 300 000 + сбор 26 208",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 5000000,
+      "deposit_worst": 1300000,
+      "exchange_fee": 26208,
+      "required": 1326208,
+      "gross_max": 13000000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******004",
+    "region": "Qashqadaryo"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-20T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "A05A-8F",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "company",
+     "display_name": "ИП (демо)",
+     "region": "Qashqadaryo",
+     "inn": "900000004"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 20
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 650000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-20"
+    },
+    "allowed_regions": [
+     "Qashqadaryo"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-20T23:59:00",
+    "natural_language_description": "20 тонн м400 в карши до 20 ноября максимум 650000 за тонну",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "ru"
+   },
+   "hash": "a05a8fc2e46f4a3012f525f7046f2c1cfd2981437b15739f70ea5b4c2439c445"
+  },
+  "b3": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 5,
+    "region": "Andijan",
+    "deadline": "2026-11-15",
+    "max_price_t": 480000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "ip",
+    "display_name": "ИП (демо)",
+    "region": "Andijan",
+    "inn": "900000002"
+   },
+   "fees": {
+    "gross_max": 2400000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 4838,
+    "deposit_rate": 0.1,
+    "deposit_worst": 240000,
+    "deposit_final": false,
+    "delivery_min_t": 0,
+    "delivery_max_t": 105000,
+    "total_worst": 2404838,
+    "needed_now": 244838
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Тест-Строй Андижан» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 250 000 000 сум ≥ задаток 240 000 + сбор 4 838",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 250000000,
+      "deposit_worst": 240000,
+      "exchange_fee": 4838,
+      "required": 244838,
+      "gross_max": 2400000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******002",
+    "region": "Andijan"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-15T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "02C3-F1",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "ip",
+     "display_name": "ИП (демо)",
+     "region": "Andijan",
+     "inn": "900000002"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 5
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 480000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-15"
+    },
+    "allowed_regions": [
+     "Andijan"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-15T23:59:00",
+    "natural_language_description": "андижонга 5 тонна м400 семент 15 ноябргача тоннаси 480000 гача",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "uz"
+   },
+   "hash": "02c3f19ac4e3537f69b1a8446768fa3ed5a4be4ab402bebc90b6988c407f1dcc"
+  },
+  "b4": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 60,
+    "region": "Tashkent_city",
+    "deadline": "2026-11-18",
+    "max_price_t": 560000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "company",
+    "display_name": "ИП (демо)",
+    "region": "Tashkent_city",
+    "inn": "900000003"
+   },
+   "fees": {
+    "gross_max": 33600000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 67738,
+    "deposit_rate": 0.1,
+    "deposit_worst": 3360000,
+    "deposit_final": false,
+    "delivery_min_t": 14000,
+    "delivery_max_t": 71000,
+    "total_worst": 33667738,
+    "needed_now": 3427738
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Пример Бетон» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 120 000 000 сум ≥ задаток 3 360 000 + сбор 67 738",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 120000000,
+      "deposit_worst": 3360000,
+      "exchange_fee": 67738,
+      "required": 3427738,
+      "gross_max": 33600000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******003",
+    "region": "Tashkent_city"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-18T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "DAA0-5A",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "company",
+     "display_name": "ИП (демо)",
+     "region": "Tashkent_city",
+     "inn": "900000003"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 60
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 560000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-18"
+    },
+    "allowed_regions": [
+     "Tashkent_city"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-18T23:59:00",
+    "natural_language_description": "60 тонн цемента 32.5 в ташкент до 18 ноября не дороже 560000",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "ru"
+   },
+   "hash": "daa05ad0b02719dcfc49817ac3b9e06cedf133670cd7a0f0397152eb677415e0"
+  },
+  "b5": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 30,
+    "region": "Jizzakh",
+    "deadline": "2026-11-20",
+    "max_price_t": 520000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "ip",
+    "display_name": "ИП (демо)",
+    "region": "Jizzakh",
+    "inn": "900000011"
+   },
+   "fees": {
+    "gross_max": 15600000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 31450,
+    "deposit_rate": 0.1,
+    "deposit_worst": 1560000,
+    "deposit_final": false,
+    "delivery_min_t": 0,
+    "delivery_max_t": 68000,
+    "total_worst": 15631450,
+    "needed_now": 1591450
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Пробный Жасур (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 20 000 000 сум ≥ задаток 1 560 000 + сбор 31 450",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 20000000,
+      "deposit_worst": 1560000,
+      "exchange_fee": 31450,
+      "required": 1591450,
+      "gross_max": 15600000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******011",
+    "region": "Jizzakh"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-20T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "B510-B5",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "ip",
+     "display_name": "ИП (демо)",
+     "region": "Jizzakh",
+     "inn": "900000011"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 30
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 520000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-20"
+    },
+    "allowed_regions": [
+     "Jizzakh"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-20T23:59:00",
+    "natural_language_description": "жиззахга 30 тонна м400 семент 20 ноябргача 520000 гача",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "uz"
+   },
+   "hash": "b510b5a33c9efcc0798f98b04a1ff23bce5c15b6879591cf83eb048a64c43766"
+  },
+  "b6": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 15,
+    "region": "Namangan",
+    "deadline": "2026-11-16",
+    "max_price_t": 620000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "person_2035",
+    "display_name": "ИП (демо)",
+    "region": "Namangan",
+    "inn": null
+   },
+   "fees": {
+    "gross_max": 9300000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 18749,
+    "deposit_rate": 0.1,
+    "deposit_worst": 930000,
+    "deposit_final": false,
+    "delivery_min_t": 11000,
+    "delivery_max_t": 97000,
+    "total_worst": 9318749,
+    "needed_now": 948749
+   },
+   "gate": {
+    "status": "warning",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "warning",
+      "reason": "Модель 2035: сегодня по п. 4 Правил клиентами могут быть только юрлица и ИП; прецедент — РФБ \"Тошкент\" §7-1 (2019)",
+      "how_to_fix": null,
+      "model_2035": true
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "частное лицо: проверка по ID-карте (ДЕМО)",
+      "how_to_fix": null,
+      "demo": true
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 15 000 000 сум ≥ задаток 930 000 + сбор 18 749",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 15000000,
+      "deposit_worst": 930000,
+      "exchange_fee": 18749,
+      "required": 948749,
+      "gross_max": 9300000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": null,
+    "region": "Namangan"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-16T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "6BC1-CE",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "person_2035",
+     "display_name": "ИП (демо)",
+     "region": "Namangan",
+     "inn": null
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 15
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 620000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-16"
+    },
+    "allowed_regions": [
+     "Namangan"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-16T23:59:00",
+    "natural_language_description": "15 тонн цемента м400 в наманган до 16 ноября не дороже 620000",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "ru"
+   },
+   "hash": "6bc1ce9afff006b48761163a1c430d4cbad4911e9656ba2585497f7d06c17171"
+  },
+  "b7": {
+   "fields": {
+    "commodity": "cement",
+    "grade": "32.5",
+    "qty_t": 30,
+    "region": "Tashkent_city",
+    "deadline": "2026-11-14",
+    "max_price_t": 470000,
+    "payment_terms": "after_delivery"
+   },
+   "principal": {
+    "kind": "company",
+    "display_name": "ИП (демо)",
+    "region": "Tashkent_city",
+    "inn": "900000012"
+   },
+   "fees": {
+    "gross_max": 14100000,
+    "fee_rate": 0.002016,
+    "exchange_fee": 28426,
+    "deposit_rate": 0.1,
+    "deposit_worst": 1410000,
+    "deposit_final": false,
+    "delivery_min_t": 14000,
+    "delivery_max_t": 71000,
+    "total_worst": 14128426,
+    "needed_now": 1438426
+   },
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Сценарий Ташкент» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 50 000 000 сум ≥ задаток 1 410 000 + сбор 28 426",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 50000000,
+      "deposit_worst": 1410000,
+      "exchange_fee": 28426,
+      "required": 1438426,
+      "gross_max": 14100000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******012",
+    "region": "Tashkent_city"
+   },
+   "next_basket": {
+    "basket_id": "B-cement-32.5-20261109-1130",
+    "commodity": "cement",
+    "grade": "32.5",
+    "window_start": "2026-11-09T11:30",
+    "window_end": "2026-11-09T11:50",
+    "status": "open",
+    "window": "11:30–11:50",
+    "date": "2026-11-09",
+    "close_time": "2026-11-09T11:50",
+    "run_id": null,
+    "to_confirm": true
+   },
+   "usual_range": {
+    "lo": 430000,
+    "hi": 766000,
+    "p10": 430000,
+    "p90": 766000,
+    "mid": 580000,
+    "days": 90,
+    "n_deals": 406,
+    "available": true,
+    "source": "данные UZEX, двойной аукцион",
+    "data_cutoff": "2026-11-06"
+   },
+   "warnings": [],
+   "errors": [],
+   "expiry": "2026-11-14T23:59:00",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "mandate_draft": {
+    "mandate_id": "4D78-EC",
+    "vct": "uzex.order.open.1",
+    "side": "buy",
+    "principal": {
+     "kind": "company",
+     "display_name": "ИП (демо)",
+     "region": "Tashkent_city",
+     "inn": "900000012"
+    },
+    "line_items": [
+     {
+      "commodity": "cement",
+      "grade": "32.5",
+      "qty_t": 30
+     }
+    ],
+    "amount_range": {
+     "max_price_t": 470000,
+     "currency": "UZS"
+    },
+    "execution_window": {
+     "not_before": "2026-11-08T10:00:00",
+     "not_after": "2026-11-14"
+    },
+    "allowed_regions": [
+     "Tashkent_city"
+    ],
+    "payment_terms": "after_delivery",
+    "expiry": "2026-11-14T23:59:00",
+    "natural_language_description": "30 тонн м400 в ташкент до 14 ноября максимум 470000 за тонну",
+    "created_at": "2026-11-08T10:00:00",
+    "lang": "ru"
+   },
+   "hash": "4d78ec8e14bd13edec692f817fb989dce9b87eb0f201f1774ad58ee5729a45ac"
+  }
+ },
+ "preview_person": {
+  "fields": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 200,
+   "region": "Namangan",
+   "deadline": "2026-11-15",
+   "max_price_t": 1000000,
+   "payment_terms": "after_delivery"
+  },
+  "principal": {
+   "kind": "person_2035",
+   "display_name": "ИП (демо)",
+   "region": "Namangan",
+   "inn": null
+  },
+  "fees": {
+   "gross_max": 200000000,
+   "fee_rate": 0.002016,
+   "exchange_fee": 403200,
+   "deposit_rate": 0.1,
+   "deposit_worst": 20000000,
+   "deposit_final": false,
+   "delivery_min_t": 11000,
+   "delivery_max_t": 97000,
+   "total_worst": 200403200,
+   "needed_now": 20403200
+  },
+  "gate": {
+   "status": "warning",
+   "checks": [
+    {
+     "name": "principal_kind",
+     "passed": true,
+     "level": "warning",
+     "reason": "Модель 2035: сегодня по п. 4 Правил клиентами могут быть только юрлица и ИП; прецедент — РФБ \"Тошкент\" §7-1 (2019)",
+     "how_to_fix": null,
+     "model_2035": true
+    },
+    {
+     "name": "company_status",
+     "passed": true,
+     "level": "ok",
+     "reason": "частное лицо: проверка по ID-карте (ДЕМО)",
+     "how_to_fix": null,
+     "demo": true
+    },
+    {
+     "name": "commodity_right",
+     "passed": true,
+     "level": "ok",
+     "reason": "цемент: без ограничений",
+     "how_to_fix": null,
+     "commodity": "cement"
+    },
+    {
+     "name": "funds",
+     "passed": true,
+     "level": "ok",
+     "reason": "на счёте 50 000 000 сум ≥ задаток 20 000 000 + сбор 403 200",
+     "how_to_fix": null,
+     "shortfall": 0,
+     "funds_available": 50000000,
+     "deposit_worst": 20000000,
+     "exchange_fee": 403200,
+     "required": 20403200,
+     "gross_max": 200000000
+    },
+    {
+     "name": "region_rule",
+     "passed": true,
+     "level": "ok",
+     "reason": "поставка в регион регистрации",
+     "how_to_fix": null
+    }
+   ],
+   "demo": true,
+   "demo_label": "ДЕМО: в проде — реестр налоговой",
+   "inn_masked": null,
+   "region": "Namangan"
+  },
+  "next_basket": {
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "commodity": "cement",
+   "grade": "32.5",
+   "window_start": "2026-11-09T11:30",
+   "window_end": "2026-11-09T11:50",
+   "status": "open",
+   "window": "11:30–11:50",
+   "date": "2026-11-09",
+   "close_time": "2026-11-09T11:50",
+   "run_id": null,
+   "to_confirm": true
+  },
+  "usual_range": {
+   "lo": 430000,
+   "hi": 766000,
+   "p10": 430000,
+   "p90": 766000,
+   "mid": 580000,
+   "days": 90,
+   "n_deals": 406,
+   "available": true,
+   "source": "данные UZEX, двойной аукцион",
+   "data_cutoff": "2026-11-06"
+  },
+  "warnings": [],
+  "errors": [],
+  "expiry": "2026-11-15T23:59:00",
+  "basket_id": "B-cement-32.5-20261109-1130",
+  "mandate_draft": {
+   "mandate_id": "097A-EF",
+   "vct": "uzex.order.open.1",
+   "side": "buy",
+   "principal": {
+    "kind": "person_2035",
+    "display_name": "ИП (демо)",
+    "region": "Namangan",
+    "inn": null
+   },
+   "line_items": [
+    {
+     "commodity": "cement",
+     "grade": "32.5",
+     "qty_t": 200
+    }
+   ],
+   "amount_range": {
+    "max_price_t": 1000000,
+    "currency": "UZS"
+   },
+   "execution_window": {
+    "not_before": "2026-11-08T10:00:00",
+    "not_after": "2026-11-15"
+   },
+   "allowed_regions": [
+    "Namangan"
+   ],
+   "payment_terms": "after_delivery",
+   "expiry": "2026-11-15T23:59:00",
+   "natural_language_description": "200 тонн цемента м400 в наманган до 15 ноября не дороже 1000000 за тонну",
+   "created_at": "2026-11-08T10:00:00",
+   "lang": "ru"
+  },
+  "hash": "097aef079449cf74b9691dda4b23e15a18fe575817f66103cb6e4a673f45f845"
+ },
+ "sign": {
+  "b1": {
+   "mandate_id": "39FD-6B",
+   "hash": "a0abd7c98dce18f028286b9d5171015f5f9f2dd3b20677898be1e8e20babbf10",
+   "receipt": {
+    "receipt_id": "RC-94F42B22AA",
+    "hash": "a0abd7c98dce18f028286b9d5171015f5f9f2dd3b20677898be1e8e20babbf10",
+    "signed_at": "2026-11-08T10:05:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "94f42b22aa4ffd8f0305bb7fe833ff30ede1a4a7179b8806faf5c507784bd5b9",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Вымышленный Алишер (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 30 000 000 сум ≥ задаток 20 000 000 + сбор 403 200",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 30000000,
+      "deposit_worst": 20000000,
+      "exchange_fee": 403200,
+      "required": 20403200,
+      "gross_max": 200000000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******001",
+    "region": "Namangan"
+   },
+   "signed_at": "2026-11-08T10:05:00"
+  },
+  "b2": {
+   "mandate_id": "A05A-8F",
+   "hash": "82751e42b01b8473606c1f28b53afc97156b3361497b166e65b71bcead75b144",
+   "receipt": {
+    "receipt_id": "RC-87D9B4EAE9",
+    "hash": "82751e42b01b8473606c1f28b53afc97156b3361497b166e65b71bcead75b144",
+    "signed_at": "2026-11-08T10:12:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "87d9b4eae99688d9b30960ac3628fd1cff4f5dc4648daf3b6c41bf5d51746816",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Условная Дилноза (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 5 000 000 сум ≥ задаток 1 300 000 + сбор 26 208",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 5000000,
+      "deposit_worst": 1300000,
+      "exchange_fee": 26208,
+      "required": 1326208,
+      "gross_max": 13000000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******004",
+    "region": "Qashqadaryo"
+   },
+   "signed_at": "2026-11-08T10:12:00"
+  },
+  "b3": {
+   "mandate_id": "02C3-F1",
+   "hash": "28c3fa21a29f63aa49b7c9ca304a8cf8c1dca19f502524d001d84409e30301dc",
+   "receipt": {
+    "receipt_id": "RC-3CBCDCC5C8",
+    "hash": "28c3fa21a29f63aa49b7c9ca304a8cf8c1dca19f502524d001d84409e30301dc",
+    "signed_at": "2026-11-08T10:20:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "3cbcdcc5c8ed1a6491417c3179db38662a17eac25d012f0a43bb2325af2fbdc3",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Тест-Строй Андижан» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 250 000 000 сум ≥ задаток 240 000 + сбор 4 838",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 250000000,
+      "deposit_worst": 240000,
+      "exchange_fee": 4838,
+      "required": 244838,
+      "gross_max": 2400000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******002",
+    "region": "Andijan"
+   },
+   "signed_at": "2026-11-08T10:20:00"
+  },
+  "b4": {
+   "mandate_id": "DAA0-5A",
+   "hash": "6a5007721acdfb6f12d2b4250d76010b7da42eab231266dba0f0da08924d80e6",
+   "receipt": {
+    "receipt_id": "RC-17371B1EE7",
+    "hash": "6a5007721acdfb6f12d2b4250d76010b7da42eab231266dba0f0da08924d80e6",
+    "signed_at": "2026-11-08T10:31:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "17371b1ee7c6a230c12aa24d05916e81d2602b6c6338f9e041d810c075995629",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Пример Бетон» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 120 000 000 сум ≥ задаток 3 360 000 + сбор 67 738",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 120000000,
+      "deposit_worst": 3360000,
+      "exchange_fee": 67738,
+      "required": 3427738,
+      "gross_max": 33600000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******003",
+    "region": "Tashkent_city"
+   },
+   "signed_at": "2026-11-08T10:31:00"
+  },
+  "b5": {
+   "mandate_id": "B510-B5",
+   "hash": "0a5e0d8a9ebcea6e11ddbcb4695e1a55182234a4873fcb35d5c8c18017f0518e",
+   "receipt": {
+    "receipt_id": "RC-CEA2836813",
+    "hash": "0a5e0d8a9ebcea6e11ddbcb4695e1a55182234a4873fcb35d5c8c18017f0518e",
+    "signed_at": "2026-11-08T10:40:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "cea2836813c26df8299a63912c0231b6c8af1436e0cbdb4e096ced169d31a7b2",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ИП Пробный Жасур (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 20 000 000 сум ≥ задаток 1 560 000 + сбор 31 450",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 20000000,
+      "deposit_worst": 1560000,
+      "exchange_fee": 31450,
+      "required": 1591450,
+      "gross_max": 15600000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******011",
+    "region": "Jizzakh"
+   },
+   "signed_at": "2026-11-08T10:40:00"
+  },
+  "b6": {
+   "mandate_id": "6BC1-CE",
+   "hash": "23363a2adc714d687037cd1172aeae1d2ae7f6f924efc59edf3a0f7cfa21d078",
+   "receipt": {
+    "receipt_id": "RC-56D9D24487",
+    "hash": "23363a2adc714d687037cd1172aeae1d2ae7f6f924efc59edf3a0f7cfa21d078",
+    "signed_at": "2026-11-08T10:52:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "56d9d24487c28fe660314adf893e9bde85224abb0c885c129a58031293815134",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "warning",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "warning",
+      "reason": "Модель 2035: сегодня по п. 4 Правил клиентами могут быть только юрлица и ИП; прецедент — РФБ \"Тошкент\" §7-1 (2019)",
+      "how_to_fix": null,
+      "model_2035": true
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "частное лицо: проверка по ID-карте (ДЕМО)",
+      "how_to_fix": null,
+      "demo": true
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 15 000 000 сум ≥ задаток 930 000 + сбор 18 749",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 15000000,
+      "deposit_worst": 930000,
+      "exchange_fee": 18749,
+      "required": 948749,
+      "gross_max": 9300000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": null,
+    "region": "Namangan"
+   },
+   "signed_at": "2026-11-08T10:52:00"
+  },
+  "b7": {
+   "mandate_id": "4D78-EC",
+   "hash": "b55aa5782cf9bb4b46f9590b0009faa5f29e938e857c475432519130d968ba9b",
+   "receipt": {
+    "receipt_id": "RC-FC06019616",
+    "hash": "b55aa5782cf9bb4b46f9590b0009faa5f29e938e857c475432519130d968ba9b",
+    "signed_at": "2026-11-08T11:03:00",
+    "signer": "principal",
+    "alg": "HMAC-SHA256 (ДЕМО)",
+    "mac": "fc060196162512d2ef2173b9dfff12827dc62cec25b6f7eaffdb334f4b765d3c",
+    "demo": true,
+    "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+   },
+   "demo": true,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "gate": {
+    "status": "ok",
+    "checks": [
+     {
+      "name": "principal_kind",
+      "passed": true,
+      "level": "ok",
+      "reason": "ИП и юрлица допускаются по сегодняшним Правилам",
+      "how_to_fix": null
+     },
+     {
+      "name": "company_status",
+      "passed": true,
+      "level": "ok",
+      "reason": "активна",
+      "how_to_fix": null,
+      "demo": true,
+      "entity_name": "ООО «Сценарий Ташкент» (вымышл.)"
+     },
+     {
+      "name": "commodity_right",
+      "passed": true,
+      "level": "ok",
+      "reason": "цемент: без ограничений",
+      "how_to_fix": null,
+      "commodity": "cement"
+     },
+     {
+      "name": "funds",
+      "passed": true,
+      "level": "ok",
+      "reason": "на счёте 50 000 000 сум ≥ задаток 1 410 000 + сбор 28 426",
+      "how_to_fix": null,
+      "shortfall": 0,
+      "funds_available": 50000000,
+      "deposit_worst": 1410000,
+      "exchange_fee": 28426,
+      "required": 1438426,
+      "gross_max": 14100000
+     },
+     {
+      "name": "region_rule",
+      "passed": true,
+      "level": "ok",
+      "reason": "поставка в регион регистрации",
+      "how_to_fix": null
+     }
+    ],
+    "demo": true,
+    "demo_label": "ДЕМО: в проде — реестр налоговой",
+    "inn_masked": "******012",
+    "region": "Tashkent_city"
+   },
+   "signed_at": "2026-11-08T11:03:00"
+  }
+ },
+ "ids": {
+  "b1": "39FD-6B",
+  "b2": "A05A-8F",
+  "b3": "02C3-F1",
+  "b4": "DAA0-5A",
+  "b5": "B510-B5",
+  "b6": "6BC1-CE",
+  "b7": "4D78-EC"
+ },
+ "basket_open": {
+  "basket_id": "B-cement-32.5-20261109-1130",
+  "commodity": "cement",
+  "grade": "32.5",
+  "window_start": "2026-11-09T11:30",
+  "window_end": "2026-11-09T11:50",
+  "status": "open",
+  "window": "11:30–11:50",
+  "date": "2026-11-09",
+  "close_time": "2026-11-09T11:50",
+  "run_id": null,
+  "to_confirm": true,
+  "n_buyers": 7,
+  "demand_t": 360,
+  "n_plants": 5,
+  "supply_t": 1000
+ },
+ "basket_after": {
+  "basket_id": "B-cement-32.5-20261109-1130",
+  "commodity": "cement",
+  "grade": "32.5",
+  "window_start": "2026-11-09T11:30",
+  "window_end": "2026-11-09T11:50",
+  "status": "closed",
+  "window": "11:30–11:50",
+  "date": "2026-11-09",
+  "close_time": "2026-11-09T11:50",
+  "run_id": "R-7b3ba5bb8d",
+  "to_confirm": true,
+  "n_buyers": 2,
+  "demand_t": 35,
+  "n_plants": 5,
+  "supply_t": 675
+ },
+ "tape_open": {
+  "now": "2026-11-08T10:00:00",
+  "items": [
+   {
+    "kind": "mandate",
+    "who": "Tashkent_city",
+    "qty_t": 30,
+    "at": "2026-11-08T11:03:00",
+    "status": null
+   },
+   {
+    "kind": "mandate",
+    "who": "Namangan",
+    "qty_t": 15,
+    "at": "2026-11-08T10:52:00",
+    "status": null
+   },
+   {
+    "kind": "mandate",
+    "who": "Jizzakh",
+    "qty_t": 30,
+    "at": "2026-11-08T10:40:00",
+    "status": null
+   },
+   {
+    "kind": "mandate",
+    "who": "Tashkent_city",
+    "qty_t": 60,
+    "at": "2026-11-08T10:31:00",
+    "status": null
+   },
+   {
+    "kind": "mandate",
+    "who": "Andijan",
+    "qty_t": 5,
+    "at": "2026-11-08T10:20:00",
+    "status": null
+   }
+  ]
+ },
+ "tape_after": {
+  "now": "2026-11-08T10:00:00",
+  "items": [
+   {
+    "kind": "mandate",
+    "who": "Tashkent_city",
+    "qty_t": 30,
+    "at": "2026-11-08T11:03:00",
+    "status": null
+   },
+   {
+    "kind": "mandate",
+    "who": "Namangan",
+    "qty_t": 200,
+    "at": "2026-11-08T11:03:00",
+    "status": "filled"
+   },
+   {
+    "kind": "mandate",
+    "who": "Qashqadaryo",
+    "qty_t": 20,
+    "at": "2026-11-08T11:03:00",
+    "status": "filled"
+   },
+   {
+    "kind": "mandate",
+    "who": "Andijan",
+    "qty_t": 5,
+    "at": "2026-11-08T11:03:00",
+    "status": "waiting"
+   },
+   {
+    "kind": "mandate",
+    "who": "Tashkent_city",
+    "qty_t": 60,
+    "at": "2026-11-08T11:03:00",
+    "status": "filled"
+   }
+  ]
+ },
+ "clearing": {
+  "run_id": "R-7b3ba5bb8d",
+  "basket_id": "B-cement-32.5-20261109-1130",
+  "engine_version": "clearing-1.0.0",
+  "clearing_price_t": 490000,
+  "executed_qty_t": 325,
+  "allocations": [
+   {
+    "mandate_id": "A05A-8F",
+    "offer_id": "A-JCP",
+    "seller": "Jizzakh Cement Plant",
+    "qty_t": 20,
+    "price_t": 490000,
+    "tariff_t": 39000,
+    "delivered_price_t": 529000,
+    "lot_group_id": "LOT-A-JCP"
+   },
+   {
+    "mandate_id": "B510-B5",
+    "offer_id": "A-JCP",
+    "seller": "Jizzakh Cement Plant",
+    "qty_t": 30,
+    "price_t": 490000,
+    "tariff_t": 0,
+    "delivered_price_t": 490000,
+    "lot_group_id": "LOT-A-JCP"
+   },
+   {
+    "mandate_id": "39FD-6B",
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "qty_t": 200,
+    "price_t": 490000,
+    "tariff_t": 22000,
+    "delivered_price_t": 512000,
+    "lot_group_id": "LOT-A-TCC"
+   },
+   {
+    "mandate_id": "6BC1-CE",
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "qty_t": 15,
+    "price_t": 490000,
+    "tariff_t": 22000,
+    "delivered_price_t": 512000,
+    "lot_group_id": "LOT-A-TCC"
+   },
+   {
+    "mandate_id": "DAA0-5A",
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "qty_t": 60,
+    "price_t": 490000,
+    "tariff_t": 14000,
+    "delivered_price_t": 504000,
+    "lot_group_id": "LOT-A-TCC"
+   }
+  ],
+  "unfilled": [
+   {
+    "mandate_id": "02C3-F1",
+    "qty_t": 5,
+    "reason": "price_below_clearing",
+    "fill_at_max_price_t": 500000
+   },
+   {
+    "mandate_id": "4D78-EC",
+    "qty_t": 30,
+    "reason": "price_below_clearing",
+    "fill_at_max_price_t": 504000
+   }
+  ],
+  "asks_unfilled": [
+   {
+    "offer_id": "A-HCJ",
+    "qty_t": 100,
+    "reason": "price_above_clearing"
+   },
+   {
+    "offer_id": "A-JCP",
+    "qty_t": 100,
+    "reason": "no_demand"
+   },
+   {
+    "offer_id": "A-QCC",
+    "qty_t": 200,
+    "reason": "price_above_clearing"
+   },
+   {
+    "offer_id": "A-SBF",
+    "qty_t": 250,
+    "reason": "price_above_clearing"
+   },
+   {
+    "offer_id": "A-TCC",
+    "qty_t": 25,
+    "reason": "no_demand"
+   }
+  ],
+  "aggregates": {
+   "demand_curve": [
+    [
+     456000,
+     360
+    ],
+    [
+     470000,
+     330
+    ],
+    [
+     480000,
+     330
+    ],
+    [
+     490000,
+     325
+    ],
+    [
+     500000,
+     325
+    ],
+    [
+     510000,
+     325
+    ],
+    [
+     520000,
+     325
+    ],
+    [
+     530000,
+     295
+    ],
+    [
+     546000,
+     295
+    ],
+    [
+     609000,
+     235
+    ],
+    [
+     650000,
+     220
+    ],
+    [
+     989000,
+     200
+    ]
+   ],
+   "supply_curve": [
+    [
+     456000,
+     0
+    ],
+    [
+     470000,
+     150
+    ],
+    [
+     480000,
+     150
+    ],
+    [
+     490000,
+     450
+    ],
+    [
+     500000,
+     700
+    ],
+    [
+     510000,
+     900
+    ],
+    [
+     520000,
+     900
+    ],
+    [
+     530000,
+     1000
+    ],
+    [
+     546000,
+     1000
+    ],
+    [
+     609000,
+     1000
+    ],
+    [
+     650000,
+     1000
+    ],
+    [
+     989000,
+     1000
+    ]
+   ],
+   "total_demand": 360,
+   "total_supply": 1000,
+   "n_bids": 7,
+   "n_asks": 5,
+   "n_executed_bids": 5,
+   "n_executed_asks": 2,
+   "marginal_side": "supply",
+   "best_bid": 989000,
+   "best_ask": 470000
+  },
+  "tie_break_used": "min_surplus",
+  "lot_groups": [
+   {
+    "lot_group_id": "LOT-A-JCP",
+    "offer_id": "A-JCP",
+    "seller": "Jizzakh Cement Plant",
+    "qty_t": 50,
+    "n_mandates": 2,
+    "min_lot_t": 50,
+    "regions": {
+     "Qashqadaryo": 20,
+     "Jizzakh": 30
+    }
+   },
+   {
+    "lot_group_id": "LOT-A-TCC",
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "qty_t": 275,
+    "n_mandates": 3,
+    "min_lot_t": 50,
+    "regions": {
+     "Namangan": 215,
+     "Tashkent_city": 60
+    }
+   }
+  ],
+  "reference_price_t": 507317,
+  "inputs_hash": "7b3ba5bb8d654e95c22064f8e8d95b0a1dc6be9929b9a194720875663b3bf14e",
+  "next_basket_id": "B-cement-32.5-20261109-1630"
+ },
+ "explain": {
+  "39FD-6B|ru": {
+   "mandate_id": "39FD-6B",
+   "lang": "ru",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "filled",
+   "reason": null,
+   "your_qty": 200,
+   "your_filled_qty": 200,
+   "your_price_delivered": 512000,
+   "your_max": 1000000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": "ваш потолок 1 000 000 ≥ цена с доставкой 512 000",
+   "why_out": null,
+   "vs_last_week": "−3,4% к средней прошлой недели",
+   "plant_region": "Ташкентская область, доставка 22 000 сум/т (демо-тариф)",
+   "counterfactual": "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе",
+   "sentences_ru": [
+    "Исполнено полностью: 200 т по 512 000 сум/т с доставкой.",
+    "Почему исполнено: ваш потолок 1 000 000 ≥ цена с доставкой 512 000.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Откуда везут: Ташкентская область, доставка 22 000 сум/т (демо-тариф).",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "sentences_uz": [
+    "Toʻliq bajarildi: 200 t, yetkazib berish bilan 512 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 1 000 000 ≥ yetkazib berish bilan narx 512 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Toshkent viloyati, yetkazib berish 22 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  },
+  "39FD-6B|uz": {
+   "mandate_id": "39FD-6B",
+   "lang": "uz",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "filled",
+   "reason": null,
+   "your_qty": 200,
+   "your_filled_qty": 200,
+   "your_price_delivered": 512000,
+   "your_max": 1000000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": "sizning chegarangiz 1 000 000 ≥ yetkazib berish bilan narx 512 000",
+   "why_out": null,
+   "vs_last_week": "oʻtgan hafta oʻrtachasiga nisbatan −3,4%",
+   "plant_region": "Toshkent viloyati, yetkazib berish 22 000 soʻm/t (demo-tarif)",
+   "counterfactual": "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000",
+   "sentences_ru": [
+    "Ispolneno polnostyu: 200 t po 512 000 sum/t s dostavkoy.",
+    "Pochemu ispolneno: vash potolok 1 000 000 ≥ sena s dostavkoy 512 000.",
+    "Yedinaya sena korzini na sklade — 490 000 sum/t dlya vsex 7 pokupateley i 5 zavodov; spros 360 t, predlojeniye 1 000 t.",
+    "Sena korzini: −3,4% k sredney proshloy nedeli.",
+    "Otkuda vezut: Tashkentskaya oblast, dostavka 22 000 sum/t (demo-tarif).",
+    "Segodnya kajdiy platil bi svoyu stavku i gnalsya za posledney sekundoy. Zdes odna sena dlya vsex: 490 000 na sklade."
+   ],
+   "sentences_uz": [
+    "Toʻliq bajarildi: 200 t, yetkazib berish bilan 512 000 soʻm/t.",
+    "Nega bajarildi: sizning chegarangiz 1 000 000 ≥ yetkazib berish bilan narx 512 000.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Qayerdan keladi: Toshkent viloyati, yetkazib berish 22 000 soʻm/t (demo-tarif).",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  },
+  "4D78-EC|ru": {
+   "mandate_id": "4D78-EC",
+   "lang": "ru",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "unfilled",
+   "reason": "price_below_clearing",
+   "your_qty": 30,
+   "your_filled_qty": 0,
+   "your_price_delivered": null,
+   "your_max": 470000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": null,
+   "why_out": "ваш потолок 470 000 < цена с доставкой 504 000; ближайшая корзина завтра 11:30",
+   "vs_last_week": "−3,4% к средней прошлой недели",
+   "plant_region": null,
+   "counterfactual": "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе",
+   "sentences_ru": [
+    "Не исполнено: ваш потолок 470 000 < цена с доставкой 504 000; ближайшая корзина завтра 11:30.",
+    "Деньги не списаны, задаток остаётся на вашем счёте до следующей корзины.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "sentences_uz": [
+    "Bajarilmadi: sizning chegarangiz 470 000 < yetkazib berish bilan narx 504 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  },
+  "4D78-EC|uz": {
+   "mandate_id": "4D78-EC",
+   "lang": "uz",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "unfilled",
+   "reason": "price_below_clearing",
+   "your_qty": 30,
+   "your_filled_qty": 0,
+   "your_price_delivered": null,
+   "your_max": 470000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": null,
+   "why_out": "sizning chegarangiz 470 000 < yetkazib berish bilan narx 504 000; navbatdagi savat ertaga 11:30",
+   "vs_last_week": "oʻtgan hafta oʻrtachasiga nisbatan −3,4%",
+   "plant_region": null,
+   "counterfactual": "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000",
+   "sentences_ru": [
+    "Ne ispolneno: vash potolok 470 000 < sena s dostavkoy 504 000; blijayshaya korzina zavtra 11:30.",
+    "Dengi ne spisani, zadatok ostayotsya na vashem schyote do sleduyushey korzini.",
+    "Yedinaya sena korzini na sklade — 490 000 sum/t dlya vsex 7 pokupateley i 5 zavodov; spros 360 t, predlojeniye 1 000 t.",
+    "Sena korzini: −3,4% k sredney proshloy nedeli.",
+    "Segodnya kajdiy platil bi svoyu stavku i gnalsya za posledney sekundoy. Zdes odna sena dlya vsex: 490 000 na sklade."
+   ],
+   "sentences_uz": [
+    "Bajarilmadi: sizning chegarangiz 470 000 < yetkazib berish bilan narx 504 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  },
+  "02C3-F1|ru": {
+   "mandate_id": "02C3-F1",
+   "lang": "ru",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "unfilled",
+   "reason": "price_below_clearing",
+   "your_qty": 5,
+   "your_filled_qty": 0,
+   "your_price_delivered": null,
+   "your_max": 480000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": null,
+   "why_out": "ваш потолок 480 000 < цена с доставкой 500 000; ближайшая корзина завтра 11:30",
+   "vs_last_week": "−3,4% к средней прошлой недели",
+   "plant_region": null,
+   "counterfactual": "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе",
+   "sentences_ru": [
+    "Не исполнено: ваш потолок 480 000 < цена с доставкой 500 000; ближайшая корзина завтра 11:30.",
+    "Деньги не списаны, задаток остаётся на вашем счёте до следующей корзины.",
+    "Единая цена корзины на складе — 490 000 сум/т для всех 7 покупателей и 5 заводов; спрос 360 т, предложение 1 000 т.",
+    "Цена корзины: −3,4% к средней прошлой недели.",
+    "Сегодня каждый платил бы свою ставку и гнался за последней секундой. Здесь одна цена для всех: 490 000 на складе."
+   ],
+   "sentences_uz": [
+    "Bajarilmadi: sizning chegarangiz 480 000 < yetkazib berish bilan narx 500 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  },
+  "02C3-F1|uz": {
+   "mandate_id": "02C3-F1",
+   "lang": "uz",
+   "run_id": "R-7b3ba5bb8d",
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "outcome": "unfilled",
+   "reason": "price_below_clearing",
+   "your_qty": 5,
+   "your_filled_qty": 0,
+   "your_price_delivered": null,
+   "your_max": 480000,
+   "clearing_price_base": 490000,
+   "total_demand_t": 360,
+   "total_supply_t": 1000,
+   "n_buyers": 7,
+   "n_plants": 5,
+   "why_in": null,
+   "why_out": "sizning chegarangiz 480 000 < yetkazib berish bilan narx 500 000; navbatdagi savat ertaga 11:30",
+   "vs_last_week": "oʻtgan hafta oʻrtachasiga nisbatan −3,4%",
+   "plant_region": null,
+   "counterfactual": "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000",
+   "sentences_ru": [
+    "Ne ispolneno: vash potolok 480 000 < sena s dostavkoy 500 000; blijayshaya korzina zavtra 11:30.",
+    "Dengi ne spisani, zadatok ostayotsya na vashem schyote do sleduyushey korzini.",
+    "Yedinaya sena korzini na sklade — 490 000 sum/t dlya vsex 7 pokupateley i 5 zavodov; spros 360 t, predlojeniye 1 000 t.",
+    "Sena korzini: −3,4% k sredney proshloy nedeli.",
+    "Segodnya kajdiy platil bi svoyu stavku i gnalsya za posledney sekundoy. Zdes odna sena dlya vsex: 490 000 na sklade."
+   ],
+   "sentences_uz": [
+    "Bajarilmadi: sizning chegarangiz 480 000 < yetkazib berish bilan narx 500 000; navbatdagi savat ertaga 11:30.",
+    "Pul yechilmadi, zakalat keyingi savatgacha hisobingizda qoladi.",
+    "Savatning yagona ombor narxi — 490 000 soʻm/t, barcha 7 xaridor va 5 zavod uchun; talab 360 t, taklif 1 000 t.",
+    "Savat narxi: oʻtgan hafta oʻrtachasiga nisbatan −3,4%.",
+    "Bugun har kim oʻz narxini toʻlar va oxirgi soniyani quvar edi. Bu yerda hamma uchun bitta narx: omborda 490 000."
+   ],
+   "text_source": {
+    "ru": "template",
+    "uz": "template"
+   }
+  }
+ },
+ "escrow_b1": {
+  "deal_id": "R-7b3ba5bb8d:39FD-6B",
+  "mandate_id": "39FD-6B",
+  "state": "MATCHED",
+  "label_ru": "сделка в корзине, ждём оплату остатка",
+  "label_uz": "bitim savatda, qolgan toʻlovni kutamiz",
+  "final": false,
+  "qty_t": 200,
+  "amount": 102400000,
+  "deposit": 20000000,
+  "seller": "Toshkent Conch Cement",
+  "buyer_inn_masked": null,
+  "deadline": "2026-11-09T10:00",
+  "deadline_kind": "payment",
+  "dispute_reason": null,
+  "grey_path": null,
+  "allowed_events": [
+   "payment_confirmed",
+   "timeout"
+  ],
+  "history": [
+   {
+    "from": "CREATED",
+    "event": "mandate_signed",
+    "to": "DEPOSIT_HELD",
+    "at": "2026-11-08T10:00"
+   },
+   {
+    "from": "DEPOSIT_HELD",
+    "event": "cleared",
+    "to": "MATCHED",
+    "at": "2026-11-08T10:00"
+   }
+  ],
+  "log": [],
+  "demo": true,
+  "demo_note_ru": "ДЕМО: в проде — РКП и exdoc"
+ },
+ "audit_b1": {
+  "deal_id": "R-7b3ba5bb8d:39FD-6B",
+  "run_id": "R-7b3ba5bb8d",
+  "basket_id": "B-cement-32.5-20261109-1130",
+  "mandate_id": "39FD-6B",
+  "mandate_hash": "a0abd7c98dce18f028286b9d5171015f5f9f2dd3b20677898be1e8e20babbf10",
+  "inputs_hash": "7b3ba5bb8d654e95c22064f8e8d95b0a1dc6be9929b9a194720875663b3bf14e",
+  "engine_version": "clearing-1.0.0",
+  "tie_break_used": "min_surplus",
+  "clearing_price": 490000,
+  "reference_price": 507317,
+  "allocations": [
+   {
+    "mandate_id": "39FD-6B",
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "qty_t": 200,
+    "price_t": 490000,
+    "tariff_t": 22000,
+    "delivered_price_t": 512000,
+    "lot_group_id": "LOT-A-TCC"
+   }
+  ],
+  "unfilled": [],
+  "explanation_hash": "0f8c99af4d5e466a187b78e215af956cf3af13f016fdcea63cb8633900b0561a",
+  "signer_receipt": {
+   "receipt_id": "RC-94F42B22AA",
+   "hash": "a0abd7c98dce18f028286b9d5171015f5f9f2dd3b20677898be1e8e20babbf10",
+   "signed_at": "2026-11-08T10:05:00",
+   "signer": "principal",
+   "alg": "HMAC-SHA256 (ДЕМО)",
+   "mac": "94f42b22aa4ffd8f0305bb7fe833ff30ede1a4a7179b8806faf5c507784bd5b9",
+   "demo": true,
+   "prod_note": "в проде: E-IMZO, ID-карта (PKCS#7)"
+  },
+  "approved_by": "принципал (подпись поручения)",
+  "decided_by": "детерминированный движок единой цены (без нейросети)",
+  "appeal_channel": "обжалование: служба надзора биржи, ответ в 10 рабочих дней; сделка и все входы восстанавливаются по хешам",
+  "appeal_channel_uz": "shikoyat: birja nazorat xizmati, javob 10 ish kunida; bitim va barcha kirish maʼlumotlari xesh orqali tiklanadi",
+  "escrow_state": "RELEASED",
+  "demo_note": "ДЕМО-подпись: в проде — E-IMZO, ID-карта",
+  "card_hash": "3cd91526c336892f039270bcf983e49a96308f771ac5d887207aa5285b6771a3",
+  "hashes_present": true
+ },
+ "radar_flags": {
+  "run_id": "R-7b3ba5bb8d",
+  "flags": [
+   {
+    "flag_id": "F1",
+    "component": 11,
+    "mandate_ids": [
+     "39FD-6B",
+     "DAA0-5A"
+    ],
+    "participants": [
+     {
+      "id": "P16",
+      "name": "ИП Вымышленный Алишер (вымышл., сценарий b1)",
+      "inn": "900000001"
+     },
+     {
+      "id": "P17",
+      "name": "ООО «Пример Бетон» (вымышл., сценарий b4)",
+      "inn": "900000003"
+     }
+    ],
+    "edges": [
+     {
+      "from": "P16",
+      "to": "P17",
+      "kind": "shared_broker",
+      "fact": "оба через брокера BK-21 в 14 из 16 сделок"
+     },
+     {
+      "from": "P16",
+      "to": "P17",
+      "kind": "shared_address",
+      "fact": "один адрес склада: Ташкент, ул. Вымышленная, 7, склад 2 (вымышл.)"
+     }
+    ],
+    "node_facts": {},
+    "summary": "2 заявки в одной корзине от связанных участников",
+    "appeal": "ответ в 10 дней (ЗПД ст. 24)",
+    "scoring": null
+   }
+  ],
+  "n_bids": 7,
+  "demo": true,
+  "demo_label": "ДЕМО: участники вымышленные",
+  "note": "участники корзины сопоставлены с вымышленным графом по ИНН; несопоставленные флагов не дают"
+ },
+ "radar_graph": {
+  "nodes": [
+   {
+    "id": "P01",
+    "name": "Участник А (вымышленный)",
+    "role": "buyer",
+    "region": "Namangan",
+    "node_facts": []
+   },
+   {
+    "id": "P02",
+    "name": "Участник Б (вымышленный)",
+    "role": "buyer",
+    "region": "Namangan",
+    "node_facts": []
+   },
+   {
+    "id": "P03",
+    "name": "Участник В (вымышленный)",
+    "role": "buyer",
+    "region": "Namangan",
+    "node_facts": []
+   },
+   {
+    "id": "P04",
+    "name": "Участник Г (вымышленный)",
+    "role": "buyer",
+    "region": "Andijan",
+    "node_facts": []
+   },
+   {
+    "id": "P05",
+    "name": "Участник Д (вымышленный)",
+    "role": "buyer",
+    "region": "Andijan",
+    "node_facts": []
+   },
+   {
+    "id": "P06",
+    "name": "Участник Е (вымышленный)",
+    "role": "buyer",
+    "region": "Tashkent_city",
+    "node_facts": []
+   },
+   {
+    "id": "P07",
+    "name": "Участник Ж (вымышленный)",
+    "role": "buyer",
+    "region": "Qashqadaryo",
+    "node_facts": [
+     "5 из 5 сделок с поставкой не в регион регистрации"
+    ]
+   },
+   {
+    "id": "P08",
+    "name": "Участник З (вымышленный)",
+    "role": "buyer",
+    "region": "Jizzakh",
+    "node_facts": []
+   },
+   {
+    "id": "P09",
+    "name": "Участник И (вымышленный)",
+    "role": "buyer",
+    "region": "Samarkand",
+    "node_facts": []
+   },
+   {
+    "id": "P10",
+    "name": "Участник К (вымышленный)",
+    "role": "buyer",
+    "region": "Fergana",
+    "node_facts": []
+   },
+   {
+    "id": "P11",
+    "name": "Участник Л (вымышленный)",
+    "role": "seller",
+    "region": "Tashkent_region",
+    "node_facts": []
+   },
+   {
+    "id": "P12",
+    "name": "Участник М (вымышленный)",
+    "role": "seller",
+    "region": "Qashqadaryo",
+    "node_facts": []
+   },
+   {
+    "id": "P13",
+    "name": "Участник Н (вымышленный)",
+    "role": "seller",
+    "region": "Jizzakh",
+    "node_facts": []
+   },
+   {
+    "id": "P14",
+    "name": "Участник О (вымышленный)",
+    "role": "seller",
+    "region": "Andijan",
+    "node_facts": []
+   },
+   {
+    "id": "P15",
+    "name": "Участник П (вымышленный)",
+    "role": "seller",
+    "region": "Samarkand",
+    "node_facts": []
+   },
+   {
+    "id": "P16",
+    "name": "ИП Вымышленный Алишер (вымышл., сценарий b1)",
+    "role": "buyer",
+    "region": "Namangan",
+    "node_facts": []
+   },
+   {
+    "id": "P17",
+    "name": "ООО «Пример Бетон» (вымышл., сценарий b4)",
+    "role": "buyer",
+    "region": "Tashkent_city",
+    "node_facts": []
+   }
+  ],
+  "edges": [
+   {
+    "from": "P01",
+    "to": "P02",
+    "kind": "shared_broker",
+    "fact": "оба через брокера BK-07 в 14 из 16 сделок"
+   },
+   {
+    "from": "P02",
+    "to": "P12",
+    "kind": "frequent_pair",
+    "fact": "покупатель Участник Б (вымышленный) и продавец Участник М (вымышленный): 5 из 7 сделок покупателя"
+   },
+   {
+    "from": "P03",
+    "to": "P12",
+    "kind": "frequent_pair",
+    "fact": "покупатель Участник В (вымышленный) и продавец Участник М (вымышленный): 7 из 8 сделок покупателя"
+   },
+   {
+    "from": "P04",
+    "to": "P05",
+    "kind": "shared_address",
+    "fact": "один адрес склада: Andijan, склад №4 (вымышл.)"
+   },
+   {
+    "from": "P16",
+    "to": "P17",
+    "kind": "shared_broker",
+    "fact": "оба через брокера BK-21 в 14 из 16 сделок"
+   },
+   {
+    "from": "P16",
+    "to": "P17",
+    "kind": "shared_address",
+    "fact": "один адрес склада: Ташкент, ул. Вымышленная, 7, склад 2 (вымышл.)"
+   }
+  ],
+  "demo": true,
+  "demo_label": "ДЕМО: участники вымышленные"
+ },
+ "plant_list": {
+  "plants": [
+   {
+    "offer_id": "A-TCC",
+    "seller": "Toshkent Conch Cement",
+    "warehouse_region": "Tashkent_region",
+    "price_t": 490000,
+    "qty_t": 25,
+    "min_lot_t": 50
+   },
+   {
+    "offer_id": "A-QCC",
+    "seller": "Qarshi Conch Cement",
+    "warehouse_region": "Qashqadaryo",
+    "price_t": 510000,
+    "qty_t": 200,
+    "min_lot_t": 50
+   },
+   {
+    "offer_id": "A-SBF",
+    "seller": "Shangfeng-Bridge of Friendship",
+    "warehouse_region": "Andijan",
+    "price_t": 500000,
+    "qty_t": 250,
+    "min_lot_t": 50
+   },
+   {
+    "offer_id": "A-JCP",
+    "seller": "Jizzakh Cement Plant",
+    "warehouse_region": "Jizzakh",
+    "price_t": 470000,
+    "qty_t": 100,
+    "min_lot_t": 50
+   },
+   {
+    "offer_id": "A-HCJ",
+    "seller": "Huaxin Cement Jizzakh",
+    "warehouse_region": "Jizzakh",
+    "price_t": 530000,
+    "qty_t": 100,
+    "min_lot_t": 55
+   }
+  ]
+ },
+ "plant_before": {
+  "Toshkent Conch Cement": {
+   "seller": "Toshkent Conch Cement",
+   "offer_id": "A-TCC",
+   "warehouse_region": "Tashkent_region",
+   "price_t": 490000,
+   "qty_t": 300,
+   "min_lot_t": 50,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "regions": [
+    {
+     "region": "Namangan",
+     "qty_t": 215,
+     "n_mandates": 2,
+     "largest_t": 200,
+     "earliest_deadline": "2026-11-15",
+     "tariff_t": 22000,
+     "sizes": [
+      200,
+      15
+     ],
+     "lots": 4,
+     "remainder_t": 15,
+     "rest_t": 15,
+     "deadline": "2026-11-15"
+    },
+    {
+     "region": "Tashkent_city",
+     "qty_t": 60,
+     "n_mandates": 1,
+     "largest_t": 60,
+     "earliest_deadline": "2026-11-18",
+     "tariff_t": 14000,
+     "sizes": [
+      60
+     ],
+     "lots": 1,
+     "remainder_t": 10,
+     "rest_t": 10,
+     "deadline": "2026-11-18"
+    },
+    {
+     "region": "Qashqadaryo",
+     "qty_t": 20,
+     "n_mandates": 1,
+     "largest_t": 20,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 77000,
+     "sizes": [
+      20
+     ],
+     "lots": 0,
+     "remainder_t": 20,
+     "rest_t": 20,
+     "deadline": "2026-11-20"
+    }
+   ],
+   "ready_at_your_price_t": 295,
+   "basket_demand_t": 360,
+   "buy_at_price_t": 295,
+   "basket_total_t": 360,
+   "sellers": [
+    "Huaxin Cement Jizzakh",
+    "Jizzakh Cement Plant",
+    "Qarshi Conch Cement",
+    "Shangfeng-Bridge of Friendship",
+    "Toshkent Conch Cement"
+   ],
+   "last_run": null,
+   "volume_demo": true,
+   "tariff_demo": true
+  },
+  "Qarshi Conch Cement": {
+   "seller": "Qarshi Conch Cement",
+   "offer_id": "A-QCC",
+   "warehouse_region": "Qashqadaryo",
+   "price_t": 510000,
+   "qty_t": 200,
+   "min_lot_t": 50,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "regions": [
+    {
+     "region": "Namangan",
+     "qty_t": 215,
+     "n_mandates": 2,
+     "largest_t": 200,
+     "earliest_deadline": "2026-11-15",
+     "tariff_t": 97000,
+     "sizes": [
+      200,
+      15
+     ],
+     "lots": 4,
+     "remainder_t": 15,
+     "rest_t": 15,
+     "deadline": "2026-11-15"
+    },
+    {
+     "region": "Qashqadaryo",
+     "qty_t": 20,
+     "n_mandates": 1,
+     "largest_t": 20,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 0,
+     "sizes": [
+      20
+     ],
+     "lots": 0,
+     "remainder_t": 20,
+     "rest_t": 20,
+     "deadline": "2026-11-20"
+    }
+   ],
+   "ready_at_your_price_t": 235,
+   "basket_demand_t": 360,
+   "buy_at_price_t": 235,
+   "basket_total_t": 360,
+   "sellers": [
+    "Huaxin Cement Jizzakh",
+    "Jizzakh Cement Plant",
+    "Qarshi Conch Cement",
+    "Shangfeng-Bridge of Friendship",
+    "Toshkent Conch Cement"
+   ],
+   "last_run": null,
+   "volume_demo": true,
+   "tariff_demo": true
+  },
+  "Shangfeng-Bridge of Friendship": {
+   "seller": "Shangfeng-Bridge of Friendship",
+   "offer_id": "A-SBF",
+   "warehouse_region": "Andijan",
+   "price_t": 500000,
+   "qty_t": 250,
+   "min_lot_t": 50,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "regions": [
+    {
+     "region": "Namangan",
+     "qty_t": 215,
+     "n_mandates": 2,
+     "largest_t": 200,
+     "earliest_deadline": "2026-11-15",
+     "tariff_t": 11000,
+     "sizes": [
+      200,
+      15
+     ],
+     "lots": 4,
+     "remainder_t": 15,
+     "rest_t": 15,
+     "deadline": "2026-11-15"
+    },
+    {
+     "region": "Tashkent_city",
+     "qty_t": 60,
+     "n_mandates": 1,
+     "largest_t": 60,
+     "earliest_deadline": "2026-11-18",
+     "tariff_t": 46000,
+     "sizes": [
+      60
+     ],
+     "lots": 1,
+     "remainder_t": 10,
+     "rest_t": 10,
+     "deadline": "2026-11-18"
+    },
+    {
+     "region": "Qashqadaryo",
+     "qty_t": 20,
+     "n_mandates": 1,
+     "largest_t": 20,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 105000,
+     "sizes": [
+      20
+     ],
+     "lots": 0,
+     "remainder_t": 20,
+     "rest_t": 20,
+     "deadline": "2026-11-20"
+    }
+   ],
+   "ready_at_your_price_t": 295,
+   "basket_demand_t": 360,
+   "buy_at_price_t": 295,
+   "basket_total_t": 360,
+   "sellers": [
+    "Huaxin Cement Jizzakh",
+    "Jizzakh Cement Plant",
+    "Qarshi Conch Cement",
+    "Shangfeng-Bridge of Friendship",
+    "Toshkent Conch Cement"
+   ],
+   "last_run": null,
+   "volume_demo": true,
+   "tariff_demo": true
+  },
+  "Jizzakh Cement Plant": {
+   "seller": "Jizzakh Cement Plant",
+   "offer_id": "A-JCP",
+   "warehouse_region": "Jizzakh",
+   "price_t": 470000,
+   "qty_t": 150,
+   "min_lot_t": 50,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "regions": [
+    {
+     "region": "Namangan",
+     "qty_t": 215,
+     "n_mandates": 2,
+     "largest_t": 200,
+     "earliest_deadline": "2026-11-15",
+     "tariff_t": 59000,
+     "sizes": [
+      200,
+      15
+     ],
+     "lots": 4,
+     "remainder_t": 15,
+     "rest_t": 15,
+     "deadline": "2026-11-15"
+    },
+    {
+     "region": "Tashkent_city",
+     "qty_t": 60,
+     "n_mandates": 1,
+     "largest_t": 60,
+     "earliest_deadline": "2026-11-18",
+     "tariff_t": 31000,
+     "sizes": [
+      60
+     ],
+     "lots": 1,
+     "remainder_t": 10,
+     "rest_t": 10,
+     "deadline": "2026-11-18"
+    },
+    {
+     "region": "Jizzakh",
+     "qty_t": 30,
+     "n_mandates": 1,
+     "largest_t": 30,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 0,
+     "sizes": [
+      30
+     ],
+     "lots": 0,
+     "remainder_t": 30,
+     "rest_t": 30,
+     "deadline": "2026-11-20"
+    },
+    {
+     "region": "Qashqadaryo",
+     "qty_t": 20,
+     "n_mandates": 1,
+     "largest_t": 20,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 39000,
+     "sizes": [
+      20
+     ],
+     "lots": 0,
+     "remainder_t": 20,
+     "rest_t": 20,
+     "deadline": "2026-11-20"
+    }
+   ],
+   "ready_at_your_price_t": 325,
+   "basket_demand_t": 360,
+   "buy_at_price_t": 325,
+   "basket_total_t": 360,
+   "sellers": [
+    "Huaxin Cement Jizzakh",
+    "Jizzakh Cement Plant",
+    "Qarshi Conch Cement",
+    "Shangfeng-Bridge of Friendship",
+    "Toshkent Conch Cement"
+   ],
+   "last_run": null,
+   "volume_demo": true,
+   "tariff_demo": true
+  },
+  "Huaxin Cement Jizzakh": {
+   "seller": "Huaxin Cement Jizzakh",
+   "offer_id": "A-HCJ",
+   "warehouse_region": "Jizzakh",
+   "price_t": 530000,
+   "qty_t": 100,
+   "min_lot_t": 55,
+   "basket_id": "B-cement-32.5-20261109-1130",
+   "regions": [
+    {
+     "region": "Namangan",
+     "qty_t": 215,
+     "n_mandates": 2,
+     "largest_t": 200,
+     "earliest_deadline": "2026-11-15",
+     "tariff_t": 59000,
+     "sizes": [
+      200,
+      15
+     ],
+     "lots": 3,
+     "remainder_t": 50,
+     "rest_t": 50,
+     "deadline": "2026-11-15"
+    },
+    {
+     "region": "Qashqadaryo",
+     "qty_t": 20,
+     "n_mandates": 1,
+     "largest_t": 20,
+     "earliest_deadline": "2026-11-20",
+     "tariff_t": 39000,
+     "sizes": [
+      20
+     ],
+     "lots": 0,
+     "remainder_t": 20,
+     "rest_t": 20,
+     "deadline": "2026-11-20"
+    }
+   ],
+   "ready_at_your_price_t": 235,
+   "basket_demand_t": 360,
+   "buy_at_price_t": 235,
+   "basket_total_t": 360,
+   "sellers": [
+    "Huaxin Cement Jizzakh",
+    "Jizzakh Cement Plant",
+    "Qarshi Conch Cement",
+    "Shangfeng-Bridge of Friendship",
+    "Toshkent Conch Cement"
+   ],
+   "last_run": null,
+   "volume_demo": true,
+   "tariff_demo": true
+  }
+ },
+ "ai92": {
+  "commodity": "АИ-92",
+  "date": "2026-11-06",
+  "contract": "128861",
+  "seller": "Бухарский НПЗ",
+  "deals": [
+   {
+    "price_t": 13357005,
+    "qty_t": 5,
+    "overpay": 0
+   },
+   {
+    "price_t": 13360000,
+    "qty_t": 3,
+    "overpay": 8985
+   },
+   {
+    "price_t": 13360999,
+    "qty_t": 2,
+    "overpay": 7988
+   },
+   {
+    "price_t": 13363999,
+    "qty_t": 4,
+    "overpay": 27976
+   },
+   {
+    "price_t": 13365100,
+    "qty_t": 3,
+    "overpay": 24285
+   }
+  ],
+  "prices": [
+   13357005,
+   13360000,
+   13360999,
+   13363999,
+   13365100
+  ],
+  "n_deals": 5,
+  "total_qty_t": 17,
+  "spread_t": 8095,
+  "uniform_price_t": 13357005,
+  "pay_as_bid_total": 227138319,
+  "uniform_total": 227069085,
+  "overpay": 69234,
+  "overpay_pct": 0.0305,
+  "caption_ru": "если бы те же пять покупателей подали поручения в одну корзину",
+  "caption_uz": "agar oʻsha besh xaridor topshiriqlarni bitta savatga berganida",
+  "source": "реестр UZEX 06.11.2026",
+  "source_label_ru": "реестр UZEX 06.11.2026, объёмы демо",
+  "source_label_uz": "UZEX reyestri 06.11.2026, hajmlar demo",
+  "volumes_note": "демо-объёмы: в реестре 2–5 т на сделку, точные объёмы не собраны"
+ },
+ "calendar": {
+  "now": "2026-11-08T10:00",
+  "windows": [
+   {
+    "date": "2026-11-09",
+    "weekday": 0,
+    "start": "2026-11-09T11:30",
+    "end": "2026-11-09T11:50",
+    "label": "09.11 11:30–11:50",
+    "is_open_now": false,
+    "to_confirm": true
+   },
+   {
+    "date": "2026-11-09",
+    "weekday": 0,
+    "start": "2026-11-09T16:30",
+    "end": "2026-11-09T16:50",
+    "label": "09.11 16:30–16:50",
+    "is_open_now": false,
+    "to_confirm": true
+   },
+   {
+    "date": "2026-11-10",
+    "weekday": 1,
+    "start": "2026-11-10T11:30",
+    "end": "2026-11-10T11:50",
+    "label": "10.11 11:30–11:50",
+    "is_open_now": false,
+    "to_confirm": true
+   },
+   {
+    "date": "2026-11-10",
+    "weekday": 1,
+    "start": "2026-11-10T16:30",
+    "end": "2026-11-10T16:50",
+    "label": "10.11 16:30–16:50",
+    "is_open_now": false,
+    "to_confirm": true
+   },
+   {
+    "date": "2026-11-11",
+    "weekday": 2,
+    "start": "2026-11-11T11:30",
+    "end": "2026-11-11T11:50",
+    "label": "11.11 11:30–11:50",
+    "is_open_now": false,
+    "to_confirm": true
+   }
+  ],
+  "plants": [
+   {
+    "plant": "Toshkent Conch Cement",
+    "plant_raw": "TOSHKENT CONCH CEMENT MCHJ QK",
+    "month": "2026-11",
+    "month_volume_t": 210000.0,
+    "working_days": 21,
+    "daily_volume_t": 10000,
+    "base_price_t": 490000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Qizilqumsement",
+    "plant_raw": "QIZILQUMSEMENT АJ",
+    "month": "2026-11",
+    "month_volume_t": 105000.0,
+    "working_days": 21,
+    "daily_volume_t": 5000,
+    "base_price_t": 500000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "СП ООО \"Farg’ona Yasin Qurilish Mollari\"",
+    "plant_raw": "СП ООО \"Farg’ona Yasin Qurilish Mollari\"",
+    "month": "2026-11",
+    "month_volume_t": 105000.0,
+    "working_days": 21,
+    "daily_volume_t": 5000,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Huaxin Cement Jizzakh",
+    "plant_raw": "ООО ИП HUAXIN CEMENT JIZZAKH",
+    "month": "2026-11",
+    "month_volume_t": 85000.0,
+    "working_days": 21,
+    "daily_volume_t": 4048,
+    "base_price_t": 530000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "NANJING CEMENT GROUP MCHJ",
+    "plant_raw": "NANJING CEMENT GROUP MCHJ",
+    "month": "2026-11",
+    "month_volume_t": 84000.0,
+    "working_days": 21,
+    "daily_volume_t": 4000,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Qarshi Conch Cement",
+    "plant_raw": "ООО QARSHI CONCH CEMENT",
+    "month": "2026-11",
+    "month_volume_t": 84000.0,
+    "working_days": 21,
+    "daily_volume_t": 4000,
+    "base_price_t": 510000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "ANDIJAN WCC CEMENT MCHJ XK",
+    "plant_raw": "ANDIJAN WCC CEMENT MCHJ XK",
+    "month": "2026-11",
+    "month_volume_t": 80000.0,
+    "working_days": 21,
+    "daily_volume_t": 3810,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Shangfeng-Bridge of Friendship",
+    "plant_raw": "SHANGFENG-BRIDGE OF FRIENDSHIP МАЪСУЛИЯТИ ЧЕКЛАНГАН ЖАМИЯТИ",
+    "month": "2026-11",
+    "month_volume_t": 67200.0,
+    "working_days": 21,
+    "daily_volume_t": 3200,
+    "base_price_t": 500000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "China Energy Samarkand Cement",
+    "plant_raw": "ИП ООО \"CHINA ENERGY INTERNATIONAL GROUP SAMARKAND CEMENT\"",
+    "month": "2026-11",
+    "month_volume_t": 63000.0,
+    "working_days": 21,
+    "daily_volume_t": 3000,
+    "base_price_t": 530000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Karakalpak Sement",
+    "plant_raw": "KARAKALPAK SEMENT MCHJ QK",
+    "month": "2026-11",
+    "month_volume_t": 60304.0,
+    "working_days": 21,
+    "daily_volume_t": 2872,
+    "base_price_t": 790000,
+    "base_price_date": "2026-11-04",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Ohangaronsement",
+    "plant_raw": "\"OHANGARONSEMENT\" MCHJ",
+    "month": "2026-11",
+    "month_volume_t": 52528.1,
+    "working_days": 21,
+    "daily_volume_t": 2501,
+    "base_price_t": 765000,
+    "base_price_date": "2026-11-03",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Jizzakh Cement Plant",
+    "plant_raw": "JIZZAKH CEMENT PLANT MCHJ",
+    "month": "2026-11",
+    "month_volume_t": 42000.0,
+    "working_days": 21,
+    "daily_volume_t": 2000,
+    "base_price_t": 470000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "АО Бекабадцемент",
+    "plant_raw": "АО Бекабадцемент",
+    "month": "2026-11",
+    "month_volume_t": 29400.0,
+    "working_days": 21,
+    "daily_volume_t": 1400,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Reco Brend Sement",
+    "plant_raw": "RECO BREND SEMENT MCHJ",
+    "month": "2026-11",
+    "month_volume_t": 20000.0,
+    "working_days": 21,
+    "daily_volume_t": 952,
+    "base_price_t": 565000,
+    "base_price_date": "2026-11-05",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "АО \"Кувасайцемент\"",
+    "plant_raw": "АО \"Кувасайцемент\"",
+    "month": "2026-11",
+    "month_volume_t": 15000.0,
+    "working_days": 21,
+    "daily_volume_t": 714,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Mentora Industries",
+    "plant_raw": "MENTORA INDUSTRIES MCHJ",
+    "month": "2026-11",
+    "month_volume_t": 14700.0,
+    "working_days": 21,
+    "daily_volume_t": 700,
+    "base_price_t": 574000,
+    "base_price_date": "2026-11-05",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Altan Mining",
+    "plant_raw": "ALTAN MINING MCHJ XK",
+    "month": "2026-11",
+    "month_volume_t": 12600.0,
+    "working_days": 21,
+    "daily_volume_t": 600,
+    "base_price_t": 420000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Жомбой Яшил Чироклари МЧЖ",
+    "plant_raw": "Жомбой Яшил Чироклари МЧЖ",
+    "month": "2026-11",
+    "month_volume_t": 10500.0,
+    "working_days": 21,
+    "daily_volume_t": 500,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "POP SEMENT MChJ QK",
+    "plant_raw": "POP SEMENT MChJ QK",
+    "month": "2026-11",
+    "month_volume_t": 7350.0,
+    "working_days": 21,
+    "daily_volume_t": 350,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "ООО TOSHBULOQ INVEST GROUP",
+    "plant_raw": "ООО TOSHBULOQ INVEST GROUP",
+    "month": "2026-11",
+    "month_volume_t": 6300.0,
+    "working_days": 21,
+    "daily_volume_t": 300,
+    "base_price_t": null,
+    "base_price_date": null,
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   },
+   {
+    "plant": "Dal Teknik Zomin",
+    "plant_raw": "\"DAL TEKNIK ZOMIN CEMENT AND LIME\" MCHJ XK",
+    "month": "2026-11",
+    "month_volume_t": 2100.0,
+    "working_days": 21,
+    "daily_volume_t": 100,
+    "base_price_t": 1800000,
+    "base_price_date": "2026-11-06",
+    "for_month": "2026-11",
+    "schedule_month_used": "2026-11"
+   }
+  ],
+  "note_ru": "ориентир; время окон — подтвердить",
+  "note_uz": "taxminiy; savdo vaqti — tasdiqlansin",
+  "source": "графики заводов UZEX (cem_sched.json)"
+ },
+ "registry": {
+  "demo": true,
+  "label": "ДЕМО: в проде — реестр налоговой",
+  "entities": [
+   {
+    "inn": "900000001",
+    "kind": "ip",
+    "name": "ИП Вымышленный Алишер (вымышл.)",
+    "region": "Namangan",
+    "status": "active"
+   },
+   {
+    "inn": "900000002",
+    "kind": "company",
+    "name": "ООО «Тест-Строй Андижан» (вымышл.)",
+    "region": "Andijan",
+    "status": "active"
+   },
+   {
+    "inn": "900000003",
+    "kind": "company",
+    "name": "ООО «Пример Бетон» (вымышл.)",
+    "region": "Tashkent_city",
+    "status": "active"
+   },
+   {
+    "inn": "900000004",
+    "kind": "ip",
+    "name": "ИП Условная Дилноза (вымышл.)",
+    "region": "Qashqadaryo",
+    "status": "active"
+   },
+   {
+    "inn": "900000005",
+    "kind": "company",
+    "name": "ООО «Демо Текстиль Фергана» (вымышл.)",
+    "region": "Fergana",
+    "status": "active"
+   },
+   {
+    "inn": "900000006",
+    "kind": "company",
+    "name": "ООО «Макет Пахта» (вымышл.)",
+    "region": "Bukhara",
+    "status": "active"
+   },
+   {
+    "inn": "900000007",
+    "kind": "company",
+    "name": "ООО «Газ-Пример Самарканд» (вымышл.)",
+    "region": "Samarkand",
+    "status": "active"
+   },
+   {
+    "inn": "900000008",
+    "kind": "company",
+    "name": "ООО «Приостановленный Склад» (вымышл.)",
+    "region": "Jizzakh",
+    "status": "suspended"
+   },
+   {
+    "inn": "900000009",
+    "kind": "ip",
+    "name": "ИП Тестовый Бахтиёр (вымышл.)",
+    "region": "Jizzakh",
+    "status": "active"
+   },
+   {
+    "inn": "900000010",
+    "kind": "ip",
+    "name": "ИП Образцовый Санжар (вымышл.)",
+    "region": "Samarkand",
+    "status": "suspended"
+   },
+   {
+    "inn": "900000011",
+    "kind": "ip",
+    "name": "ИП Пробный Жасур (вымышл.)",
+    "region": "Jizzakh",
+    "status": "active"
+   },
+   {
+    "inn": "900000012",
+    "kind": "company",
+    "name": "ООО «Сценарий Ташкент» (вымышл.)",
+    "region": "Tashkent_city",
+    "status": "active"
+   }
+  ]
+ }
+}

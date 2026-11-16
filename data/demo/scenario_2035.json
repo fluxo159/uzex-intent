@@ -1,0 +1,203 @@
+{
+ "seed": 2035,
+ "now": "2026-11-08T10:00:00",
+ "basket": {
+  "commodity": "cement",
+  "grade": "32.5",
+  "note": "корзина — ближайшее окно торгов от времени демо; в демо закрывается кнопкой"
+ },
+ "note": "Покупатели вымышленные (демо). Заводы реальные, цены — базисные цены контрактов «навал» 32,5 из сделок UZEX 2–6.11.2026; объёмы заводов — демо-объёмы.",
+ "asks": [
+  {
+   "offer_id": "A-TCC",
+   "seller": "Toshkent Conch Cement",
+   "contract": "462682",
+   "qty_t": 300,
+   "min_price_t": 490000,
+   "warehouse_region": "Tashkent_region",
+   "min_lot_t": 50,
+   "deposit_rate": 0.05,
+   "created_at": "2026-11-08T09:00:00",
+   "volume_demo": true
+  },
+  {
+   "offer_id": "A-QCC",
+   "seller": "Qarshi Conch Cement",
+   "contract": "423241",
+   "qty_t": 200,
+   "min_price_t": 510000,
+   "warehouse_region": "Qashqadaryo",
+   "min_lot_t": 50,
+   "deposit_rate": 0.05,
+   "created_at": "2026-11-08T09:01:00",
+   "volume_demo": true
+  },
+  {
+   "offer_id": "A-SBF",
+   "seller": "Shangfeng-Bridge of Friendship",
+   "contract": "426985",
+   "qty_t": 250,
+   "min_price_t": 500000,
+   "warehouse_region": "Andijan",
+   "min_lot_t": 50,
+   "deposit_rate": 0.1,
+   "created_at": "2026-11-08T09:02:00",
+   "volume_demo": true
+  },
+  {
+   "offer_id": "A-JCP",
+   "seller": "Jizzakh Cement Plant",
+   "contract": "69662",
+   "qty_t": 150,
+   "min_price_t": 470000,
+   "warehouse_region": "Jizzakh",
+   "min_lot_t": 50,
+   "deposit_rate": 0.1,
+   "created_at": "2026-11-08T09:03:00",
+   "volume_demo": true
+  },
+  {
+   "offer_id": "A-HCJ",
+   "seller": "Huaxin Cement Jizzakh",
+   "contract": "413682",
+   "qty_t": 100,
+   "min_price_t": 530000,
+   "warehouse_region": "Jizzakh",
+   "min_lot_t": 55,
+   "deposit_rate": 0.1,
+   "created_at": "2026-11-08T09:04:00",
+   "volume_demo": true
+  }
+ ],
+ "buyers": [
+  {
+   "key": "b1",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "ip",
+   "inn": "900000001",
+   "region": "Namangan",
+   "lang": "ru",
+   "created_at": "2026-11-08T10:05:00",
+   "phrase": "200 тонн цемента М400 в Наманган до 15 ноября, не дороже 1 000 000 за тонну"
+  },
+  {
+   "key": "b2",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "company",
+   "inn": "900000004",
+   "region": "Qashqadaryo",
+   "lang": "ru",
+   "created_at": "2026-11-08T10:12:00",
+   "phrase": "20 тонн М400 в Карши до 20 ноября, максимум 650 000 за тонну"
+  },
+  {
+   "key": "b3",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "ip",
+   "inn": "900000002",
+   "region": "Andijan",
+   "lang": "uz",
+   "created_at": "2026-11-08T10:20:00",
+   "phrase": "Andijonga 5 tonna M400 sement, 15 noyabrgacha, tonnasi 480 000 gacha"
+  },
+  {
+   "key": "b4",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "company",
+   "inn": "900000003",
+   "region": "Tashkent_city",
+   "lang": "ru",
+   "created_at": "2026-11-08T10:31:00",
+   "phrase": "60 тонн цемента 32,5 в Ташкент до 18 ноября, не дороже 560 000"
+  },
+  {
+   "key": "b5",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "ip",
+   "inn": "900000011",
+   "region": "Jizzakh",
+   "lang": "uz",
+   "created_at": "2026-11-08T10:40:00",
+   "phrase": "Jizzaxga 30 tonna M400 sement, 20 noyabrgacha, 520 000 gacha"
+  },
+  {
+   "key": "b6",
+   "display_name": "Частное лицо (демо, модель 2035)",
+   "kind": "person_2035",
+   "inn": null,
+   "region": "Namangan",
+   "lang": "ru",
+   "created_at": "2026-11-08T10:52:00",
+   "phrase": "15 тонн цемента М400 в Наманган до 16 ноября, не дороже 620 000",
+   "funds_available": 15000000
+  },
+  {
+   "key": "b7",
+   "display_name": "из ДЕМО-реестра",
+   "kind": "company",
+   "inn": "900000012",
+   "region": "Tashkent_city",
+   "lang": "ru",
+   "created_at": "2026-11-08T11:03:00",
+   "phrase": "30 тонн М400 в Ташкент до 14 ноября, максимум 470 000 за тонну"
+  }
+ ],
+ "expected_fields": {
+  "b1": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 200,
+   "region": "Namangan",
+   "deadline": "2026-11-15",
+   "max_price_t": 1000000
+  },
+  "b2": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 20,
+   "region": "Qashqadaryo",
+   "deadline": "2026-11-20",
+   "max_price_t": 650000
+  },
+  "b3": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 5,
+   "region": "Andijan",
+   "deadline": "2026-11-15",
+   "max_price_t": 480000
+  },
+  "b4": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 60,
+   "region": "Tashkent_city",
+   "deadline": "2026-11-18",
+   "max_price_t": 560000
+  },
+  "b5": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 30,
+   "region": "Jizzakh",
+   "deadline": "2026-11-20",
+   "max_price_t": 520000
+  },
+  "b6": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 15,
+   "region": "Namangan",
+   "deadline": "2026-11-16",
+   "max_price_t": 620000
+  },
+  "b7": {
+   "commodity": "cement",
+   "grade": "32.5",
+   "qty_t": 30,
+   "region": "Tashkent_city",
+   "deadline": "2026-11-14",
+   "max_price_t": 470000
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "demo": true,
+  "label": "ДЕМО: в проде — реестр налоговой и ИС «Лицензия»",
+  "note": "все участники вымышленные; ИНН не существуют",
+  "entities": [
+    {"inn": "900000001", "kind": "ip", "name": "ИП Вымышленный Алишер (вымышл.)", "region": "Namangan", "status": "active", "demo_balance": 30000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000002", "kind": "company", "name": "ООО «Тест-Строй Андижан» (вымышл.)", "region": "Andijan", "status": "active", "demo_balance": 250000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000003", "kind": "company", "name": "ООО «Пример Бетон» (вымышл.)", "region": "Tashkent_city", "status": "active", "demo_balance": 120000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": true},
+    {"inn": "900000004", "kind": "ip", "name": "ИП Условная Дилноза (вымышл.)", "region": "Qashqadaryo", "status": "active", "demo_balance": 5000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000005", "kind": "company", "name": "ООО «Демо Текстиль Фергана» (вымышл.)", "region": "Fergana", "status": "active", "demo_balance": 500000000, "cotton_processor": true, "hokimiyat_recommendation": true, "lpg_license": false},
+    {"inn": "900000006", "kind": "company", "name": "ООО «Макет Пахта» (вымышл.)", "region": "Bukhara", "status": "active", "demo_balance": 300000000, "cotton_processor": true, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000007", "kind": "company", "name": "ООО «Газ-Пример Самарканд» (вымышл.)", "region": "Samarkand", "status": "active", "demo_balance": 80000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": true},
+    {"inn": "900000008", "kind": "company", "name": "ООО «Приостановленный Склад» (вымышл.)", "region": "Jizzakh", "status": "suspended", "demo_balance": 90000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000009", "kind": "ip", "name": "ИП Тестовый Бахтиёр (вымышл.)", "region": "Jizzakh", "status": "active", "demo_balance": 0, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000010", "kind": "ip", "name": "ИП Образцовый Санжар (вымышл.)", "region": "Samarkand", "status": "suspended", "demo_balance": 15000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000011", "kind": "ip", "name": "ИП Пробный Жасур (вымышл.)", "region": "Jizzakh", "status": "active", "demo_balance": 20000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false},
+    {"inn": "900000012", "kind": "company", "name": "ООО «Сценарий Ташкент» (вымышл.)", "region": "Tashkent_city", "status": "active", "demo_balance": 50000000, "cotton_processor": false, "hokimiyat_recommendation": false, "lpg_license": false}
+  ]
+}

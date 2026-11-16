@@ -1,0 +1,830 @@
+{
+ "demo": true,
+ "label": "ДЕМО: участники вымышленные",
+ "seed": 2035,
+ "note": "сгенерировано детерминированно (сид 2035); ИНН, имена, брокеры и адреса не существуют; P16 и P17 — вымышленные покупатели демо-сценария (ИНН из scenario_2035.json, b1 и b4)",
+ "participants": [
+  {
+   "id": "P01",
+   "inn": "800000001",
+   "name": "Участник А (вымышленный)",
+   "role": "buyer",
+   "region": "Namangan",
+   "warehouse_address": "Namangan, склад №1 (вымышл.)"
+  },
+  {
+   "id": "P02",
+   "inn": "800000002",
+   "name": "Участник Б (вымышленный)",
+   "role": "buyer",
+   "region": "Namangan",
+   "warehouse_address": "Namangan, склад №2 (вымышл.)"
+  },
+  {
+   "id": "P03",
+   "inn": "800000003",
+   "name": "Участник В (вымышленный)",
+   "role": "buyer",
+   "region": "Namangan",
+   "warehouse_address": "Namangan, склад №3 (вымышл.)"
+  },
+  {
+   "id": "P04",
+   "inn": "800000004",
+   "name": "Участник Г (вымышленный)",
+   "role": "buyer",
+   "region": "Andijan",
+   "warehouse_address": "Andijan, склад №4 (вымышл.)"
+  },
+  {
+   "id": "P05",
+   "inn": "800000005",
+   "name": "Участник Д (вымышленный)",
+   "role": "buyer",
+   "region": "Andijan",
+   "warehouse_address": "Andijan, склад №4 (вымышл.)"
+  },
+  {
+   "id": "P06",
+   "inn": "800000006",
+   "name": "Участник Е (вымышленный)",
+   "role": "buyer",
+   "region": "Tashkent_city",
+   "warehouse_address": "Tashkent_city, склад №6 (вымышл.)"
+  },
+  {
+   "id": "P07",
+   "inn": "800000007",
+   "name": "Участник Ж (вымышленный)",
+   "role": "buyer",
+   "region": "Qashqadaryo",
+   "warehouse_address": "Qashqadaryo, склад №7 (вымышл.)"
+  },
+  {
+   "id": "P08",
+   "inn": "800000008",
+   "name": "Участник З (вымышленный)",
+   "role": "buyer",
+   "region": "Jizzakh",
+   "warehouse_address": "Jizzakh, склад №8 (вымышл.)"
+  },
+  {
+   "id": "P09",
+   "inn": "800000009",
+   "name": "Участник И (вымышленный)",
+   "role": "buyer",
+   "region": "Samarkand",
+   "warehouse_address": "Samarkand, склад №9 (вымышл.)"
+  },
+  {
+   "id": "P10",
+   "inn": "800000010",
+   "name": "Участник К (вымышленный)",
+   "role": "buyer",
+   "region": "Fergana",
+   "warehouse_address": "Fergana, склад №10 (вымышл.)"
+  },
+  {
+   "id": "P11",
+   "inn": "800000011",
+   "name": "Участник Л (вымышленный)",
+   "role": "seller",
+   "region": "Tashkent_region",
+   "warehouse_address": "Tashkent_region, склад №11 (вымышл.)"
+  },
+  {
+   "id": "P12",
+   "inn": "800000012",
+   "name": "Участник М (вымышленный)",
+   "role": "seller",
+   "region": "Qashqadaryo",
+   "warehouse_address": "Qashqadaryo, склад №12 (вымышл.)"
+  },
+  {
+   "id": "P13",
+   "inn": "800000013",
+   "name": "Участник Н (вымышленный)",
+   "role": "seller",
+   "region": "Jizzakh",
+   "warehouse_address": "Jizzakh, склад №13 (вымышл.)"
+  },
+  {
+   "id": "P14",
+   "inn": "800000014",
+   "name": "Участник О (вымышленный)",
+   "role": "seller",
+   "region": "Andijan",
+   "warehouse_address": "Andijan, склад №14 (вымышл.)"
+  },
+  {
+   "id": "P15",
+   "inn": "800000015",
+   "name": "Участник П (вымышленный)",
+   "role": "seller",
+   "region": "Samarkand",
+   "warehouse_address": "Samarkand, склад №15 (вымышл.)"
+  },
+  {
+   "id": "P16",
+   "inn": "900000001",
+   "name": "ИП Вымышленный Алишер (вымышл., сценарий b1)",
+   "role": "buyer",
+   "region": "Namangan",
+   "warehouse_address": "Ташкент, ул. Вымышленная, 7, склад 2 (вымышл.)"
+  },
+  {
+   "id": "P17",
+   "inn": "900000003",
+   "name": "ООО «Пример Бетон» (вымышл., сценарий b4)",
+   "role": "buyer",
+   "region": "Tashkent_city",
+   "warehouse_address": "Ташкент, ул. Вымышленная, 7, склад 2 (вымышл.)"
+  }
+ ],
+ "deals": [
+  {
+   "deal_no": "D0001",
+   "date": "2026-08-24",
+   "buyer": "P01",
+   "seller": "P14",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0002",
+   "date": "2026-08-07",
+   "buyer": "P01",
+   "seller": "P11",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0003",
+   "date": "2026-10-31",
+   "buyer": "P01",
+   "seller": "P15",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0004",
+   "date": "2026-10-20",
+   "buyer": "P01",
+   "seller": "P14",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0005",
+   "date": "2026-09-19",
+   "buyer": "P01",
+   "seller": "P11",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0006",
+   "date": "2026-10-17",
+   "buyer": "P01",
+   "seller": "P11",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0007",
+   "date": "2026-09-12",
+   "buyer": "P01",
+   "seller": "P13",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0008",
+   "date": "2026-08-15",
+   "buyer": "P01",
+   "seller": "P15",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0009",
+   "date": "2026-09-05",
+   "buyer": "P01",
+   "seller": "P15",
+   "broker": "BK-02",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0010",
+   "date": "2026-09-02",
+   "buyer": "P02",
+   "seller": "P12",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0011",
+   "date": "2026-08-11",
+   "buyer": "P02",
+   "seller": "P12",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0012",
+   "date": "2026-09-08",
+   "buyer": "P02",
+   "seller": "P12",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0013",
+   "date": "2026-10-26",
+   "buyer": "P02",
+   "seller": "P12",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0014",
+   "date": "2026-10-17",
+   "buyer": "P02",
+   "seller": "P12",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0015",
+   "date": "2026-08-16",
+   "buyer": "P02",
+   "seller": "P14",
+   "broker": "BK-07",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0016",
+   "date": "2026-08-08",
+   "buyer": "P02",
+   "seller": "P15",
+   "broker": "BK-04",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0017",
+   "date": "2026-08-30",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0018",
+   "date": "2026-09-04",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0019",
+   "date": "2026-09-19",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0020",
+   "date": "2026-10-20",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-05",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0021",
+   "date": "2026-10-19",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-01",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0022",
+   "date": "2026-08-19",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-01",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0023",
+   "date": "2026-09-15",
+   "buyer": "P03",
+   "seller": "P12",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0024",
+   "date": "2026-08-22",
+   "buyer": "P03",
+   "seller": "P15",
+   "broker": "BK-05",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0025",
+   "date": "2026-10-12",
+   "buyer": "P07",
+   "seller": "P11",
+   "broker": "BK-06",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0026",
+   "date": "2026-10-21",
+   "buyer": "P07",
+   "seller": "P13",
+   "broker": "BK-02",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0027",
+   "date": "2026-09-09",
+   "buyer": "P07",
+   "seller": "P11",
+   "broker": "BK-02",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0028",
+   "date": "2026-10-20",
+   "buyer": "P07",
+   "seller": "P13",
+   "broker": "BK-05",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0029",
+   "date": "2026-08-19",
+   "buyer": "P07",
+   "seller": "P14",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0030",
+   "date": "2026-08-12",
+   "buyer": "P04",
+   "seller": "P15",
+   "broker": "BK-02",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0031",
+   "date": "2026-10-15",
+   "buyer": "P04",
+   "seller": "P15",
+   "broker": "BK-01",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0032",
+   "date": "2026-08-29",
+   "buyer": "P04",
+   "seller": "P14",
+   "broker": "BK-02",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0033",
+   "date": "2026-08-05",
+   "buyer": "P04",
+   "seller": "P14",
+   "broker": "BK-05",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0034",
+   "date": "2026-08-21",
+   "buyer": "P04",
+   "seller": "P15",
+   "broker": "BK-01",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0035",
+   "date": "2026-09-25",
+   "buyer": "P05",
+   "seller": "P13",
+   "broker": "BK-06",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0036",
+   "date": "2026-08-26",
+   "buyer": "P05",
+   "seller": "P15",
+   "broker": "BK-01",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0037",
+   "date": "2026-10-27",
+   "buyer": "P05",
+   "seller": "P11",
+   "broker": "BK-06",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0038",
+   "date": "2026-09-19",
+   "buyer": "P05",
+   "seller": "P14",
+   "broker": "BK-03",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0039",
+   "date": "2026-08-21",
+   "buyer": "P05",
+   "seller": "P14",
+   "broker": "BK-03",
+   "delivery_region": "Andijan"
+  },
+  {
+   "deal_no": "D0040",
+   "date": "2026-10-24",
+   "buyer": "P06",
+   "seller": "P14",
+   "broker": "BK-03",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0041",
+   "date": "2026-09-27",
+   "buyer": "P06",
+   "seller": "P14",
+   "broker": "BK-06",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0042",
+   "date": "2026-10-19",
+   "buyer": "P06",
+   "seller": "P15",
+   "broker": "BK-04",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0043",
+   "date": "2026-10-31",
+   "buyer": "P06",
+   "seller": "P15",
+   "broker": "BK-04",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0044",
+   "date": "2026-08-05",
+   "buyer": "P06",
+   "seller": "P14",
+   "broker": "BK-03",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0045",
+   "date": "2026-08-14",
+   "buyer": "P08",
+   "seller": "P14",
+   "broker": "BK-06",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0046",
+   "date": "2026-08-10",
+   "buyer": "P08",
+   "seller": "P14",
+   "broker": "BK-01",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0047",
+   "date": "2026-10-13",
+   "buyer": "P08",
+   "seller": "P13",
+   "broker": "BK-06",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0048",
+   "date": "2026-08-30",
+   "buyer": "P08",
+   "seller": "P11",
+   "broker": "BK-02",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0049",
+   "date": "2026-08-14",
+   "buyer": "P08",
+   "seller": "P14",
+   "broker": "BK-05",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0050",
+   "date": "2026-08-04",
+   "buyer": "P08",
+   "seller": "P15",
+   "broker": "BK-06",
+   "delivery_region": "Jizzakh"
+  },
+  {
+   "deal_no": "D0051",
+   "date": "2026-09-25",
+   "buyer": "P09",
+   "seller": "P15",
+   "broker": "BK-04",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0052",
+   "date": "2026-08-26",
+   "buyer": "P09",
+   "seller": "P13",
+   "broker": "BK-01",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0053",
+   "date": "2026-08-06",
+   "buyer": "P09",
+   "seller": "P11",
+   "broker": "BK-04",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0054",
+   "date": "2026-08-31",
+   "buyer": "P09",
+   "seller": "P15",
+   "broker": "BK-05",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0055",
+   "date": "2026-08-09",
+   "buyer": "P09",
+   "seller": "P13",
+   "broker": "BK-06",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0056",
+   "date": "2026-09-28",
+   "buyer": "P09",
+   "seller": "P15",
+   "broker": "BK-01",
+   "delivery_region": "Samarkand"
+  },
+  {
+   "deal_no": "D0057",
+   "date": "2026-09-17",
+   "buyer": "P10",
+   "seller": "P15",
+   "broker": "BK-06",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0058",
+   "date": "2026-10-07",
+   "buyer": "P10",
+   "seller": "P15",
+   "broker": "BK-04",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0059",
+   "date": "2026-09-15",
+   "buyer": "P10",
+   "seller": "P11",
+   "broker": "BK-03",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0060",
+   "date": "2026-08-06",
+   "buyer": "P10",
+   "seller": "P14",
+   "broker": "BK-02",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0061",
+   "date": "2026-09-14",
+   "buyer": "P10",
+   "seller": "P13",
+   "broker": "BK-04",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0062",
+   "date": "2026-10-19",
+   "buyer": "P10",
+   "seller": "P11",
+   "broker": "BK-01",
+   "delivery_region": "Fergana"
+  },
+  {
+   "deal_no": "D0063",
+   "date": "2026-08-28",
+   "buyer": "P16",
+   "seller": "P11",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0064",
+   "date": "2026-08-30",
+   "buyer": "P16",
+   "seller": "P13",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0065",
+   "date": "2026-09-24",
+   "buyer": "P16",
+   "seller": "P14",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0066",
+   "date": "2026-09-06",
+   "buyer": "P16",
+   "seller": "P15",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0067",
+   "date": "2026-09-23",
+   "buyer": "P16",
+   "seller": "P11",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0068",
+   "date": "2026-10-21",
+   "buyer": "P16",
+   "seller": "P13",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0069",
+   "date": "2026-10-26",
+   "buyer": "P16",
+   "seller": "P14",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0070",
+   "date": "2026-10-03",
+   "buyer": "P16",
+   "seller": "P15",
+   "broker": "BK-21",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0071",
+   "date": "2026-09-03",
+   "buyer": "P16",
+   "seller": "P11",
+   "broker": "BK-03",
+   "delivery_region": "Namangan"
+  },
+  {
+   "deal_no": "D0072",
+   "date": "2026-08-22",
+   "buyer": "P17",
+   "seller": "P11",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0073",
+   "date": "2026-10-05",
+   "buyer": "P17",
+   "seller": "P13",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0074",
+   "date": "2026-08-16",
+   "buyer": "P17",
+   "seller": "P14",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0075",
+   "date": "2026-08-13",
+   "buyer": "P17",
+   "seller": "P15",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0076",
+   "date": "2026-08-17",
+   "buyer": "P17",
+   "seller": "P11",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0077",
+   "date": "2026-08-28",
+   "buyer": "P17",
+   "seller": "P13",
+   "broker": "BK-21",
+   "delivery_region": "Tashkent_city"
+  },
+  {
+   "deal_no": "D0078",
+   "date": "2026-08-15",
+   "buyer": "P17",
+   "seller": "P14",
+   "broker": "BK-01",
+   "delivery_region": "Tashkent_city"
+  }
+ ],
+ "baskets": [
+  {
+   "run_id": "RADAR-DEMO-1",
+   "note": "две заявки одной компоненты (брокер + частый продавец)",
+   "bids": [
+    {
+     "mandate_id": "RM-1",
+     "participant": "P01"
+    },
+    {
+     "mandate_id": "RM-2",
+     "participant": "P03"
+    },
+    {
+     "mandate_id": "RM-3",
+     "participant": "P08"
+    },
+    {
+     "mandate_id": "RM-4",
+     "participant": "P09"
+    }
+   ]
+  },
+  {
+   "run_id": "RADAR-DEMO-2",
+   "note": "общий адрес склада",
+   "bids": [
+    {
+     "mandate_id": "RM-5",
+     "participant": "P04"
+    },
+    {
+     "mandate_id": "RM-6",
+     "participant": "P05"
+    },
+    {
+     "mandate_id": "RM-7",
+     "participant": "P10"
+    }
+   ]
+  },
+  {
+   "run_id": "RADAR-DEMO-CLEAN",
+   "note": "связей нет — флагов нет",
+   "bids": [
+    {
+     "mandate_id": "RM-8",
+     "participant": "P06"
+    },
+    {
+     "mandate_id": "RM-9",
+     "participant": "P08"
+    },
+    {
+     "mandate_id": "RM-10",
+     "participant": "P10"
+    }
+   ]
+  }
+ ]
+}
