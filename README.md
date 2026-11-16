@@ -1,5 +1,7 @@
 <p align="center"><img src="docs/cover.svg" alt="UZEX Intent — Биржа намерений" width="100%"></p>
 
+[![Checks](https://github.com/fluxo159/uzex-intent/actions/workflows/checks.yml/badge.svg)](https://github.com/fluxo159/uzex-intent/actions/workflows/checks.yml)
+
 # Intent — «Биржа намерений»
 
 **Биржевой MVP с голосовым и текстовым вводом поручений на русском и узбекском.** Прототип для финала UZEX «The Exchange of 2035», ноябрь 2026.
